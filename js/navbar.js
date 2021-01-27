@@ -1,10 +1,4 @@
 // Function will call when user clicks on any Nav-Link or Close Icon in Mobile View
-window.addEventListener('load',function loading() {
-    var preload = document.querySelector('.preloader');
-    var body = document.querySelector('body');
-    body.classList.add('addon')
-    preload.classList.add('load-end');
-  })
 
 let curs = document.querySelector(".cursor");
 document.addEventListener("mousemove", (e) => {
@@ -13,6 +7,20 @@ document.addEventListener("mousemove", (e) => {
     curs.style.left = x - 25 + "px";
     curs.style.top = y - 25 + "px";
 });
+var hour ;
+
+if((hour >= 6 && hour <=18))
+{
+console.log((new Date).getHours());
+    var body = document.querySelector('.Landing');
+    body.classList.add('addon')
+}
+else{
+    var body = document.querySelector('.moon');
+    body.classList.add('day')
+    var glitch = document.querySelector('.glitch');
+    glitch.classList.add('glitch_day')
+}
 
 
 const switchToSection = () => {

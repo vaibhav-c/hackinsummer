@@ -202,6 +202,8 @@ text set in the data-text attribute. */
   top: 0;
   width: 100%;
   overflow: hidden;
+}
+.addon{
   background: linear-gradient(to bottom, rgba(117, 114, 113, 0.8) 10%, rgba(40, 49, 77, 0.8) 30%, rgba(29, 35, 71, 0.8) 50%, rgba(19, 25, 28, 0.8) 80%, rgba(15, 14, 14, .8) 100%)
 }
 
@@ -616,6 +618,16 @@ pointer-events: none;
 
 .star:nth-child(7) {
   transform: translate(-5px, 20px);
+}
+
+
+.day{
+  background: #ffe982;
+  box-shadow: 0 0 70px 70px rgba(255, 214, 26, 0.2);
+}
+.glitch_day{
+  color: #318290;
+    text-shadow: 3px 0px 12px #fff9ae;
 }
 
 
