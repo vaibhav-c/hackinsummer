@@ -9,7 +9,7 @@ document.addEventListener("mousemove", (e) => {
 });
 var hour ;
 
-if((hour >= 6 && hour <=18))
+if(!(hour >= 6 && hour <=18))
 {
 console.log((new Date).getHours());
     var body = document.querySelector('.Landing');
