@@ -203,9 +203,7 @@ text set in the data-text attribute. */
   width: 100%;
   overflow: hidden;
 }
-.addon{
-  background: linear-gradient(to bottom, rgba(117, 114, 113, 0.8) 10%, rgba(40, 49, 77, 0.8) 30%, rgba(29, 35, 71, 0.8) 50%, rgba(19, 25, 28, 0.8) 80%, rgba(15, 14, 14, .8) 100%)
-}
+
 
 
 .img1 {
@@ -678,7 +676,12 @@ pointer-events: none;
   color: #318290;
     text-shadow: 3px 0px 12px #fff9ae;
 }
-
+.addon{
+  background: linear-gradient(to bottom, rgba(117, 114, 113, 0.8) 10%, rgba(40, 49, 77, 0.8) 30%, rgba(29, 35, 71, 0.8) 50%, rgba(19, 25, 28, 0.8) 80%, rgba(15, 14, 14, .8) 100%)
+}
+.birdhide{
+  display: none;
+}
 @media screen and (max-width: 576px) {
   .img7, .img8, .img9, .img10{
     display: inline;
