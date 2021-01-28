@@ -7,7 +7,7 @@ document.addEventListener("mousemove", (e) => {
     curs.style.left = x - 25 + "px";
     curs.style.top = y - 25 + "px";
 });
-var hour ;
+var hour  = (new Date).getHours() ;
 
 if(!(hour >= 6 && hour <=18))
 {
