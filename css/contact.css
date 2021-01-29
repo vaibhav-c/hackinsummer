@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 #contact_section {
     text-align: center;
@@ -88,7 +89,7 @@ margin-left: auto;
 
   }
   .owl-dots button.owl-dot.active {
-    background-color: #000;
+    background-color: #407ba3;
   }
   .owl-dots button.owl-dot:focus {
     outline: none;
@@ -108,13 +109,13 @@ margin-left: auto;
   {
     margin-top: 14px;
     color:#a3aeba;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 500;
   }
   .organiser-role
   {
     color:#a3aeba;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 500;
   }
  

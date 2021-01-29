@@ -292,25 +292,6 @@ text set in the data-text attribute. */
 
 
 
-.airplane {
-  width: 300px;
-  height: 300px;
-  top: 200px;
-  left: 600px;
-  position: absolute;
-  
-  animation: plane 1s ease infinite;
-  animation-direction: alternate;
-}
-
-@keyframes plane {
-  0% {
-      top: 200px;
-  }
-  100% {
-      top: 150px;
-  }
-}
 
 
 /*.load-end
