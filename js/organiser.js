@@ -1,6 +1,6 @@
 jQuery("#carousel").owlCarousel({
-    autoplay: true,
-    rewind: true, /* use rewind if you don't want loop */
+    autoplay: false,
+    rewind: false, /* use rewind if you don't want loop */
     margin: 20,
      /*
     animateOut: 'fadeOut',
@@ -9,7 +9,7 @@ jQuery("#carousel").owlCarousel({
     responsiveClass: true,
     autoHeight: true,
     autoplayTimeout: 7000,
-    smartSpeed: 800,
+    smartSpeed: 10,
     nav: true,
     responsive: {
       0: {
