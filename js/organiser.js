@@ -9,7 +9,7 @@ jQuery("#carousel").owlCarousel({
     responsiveClass: true,
     autoHeight: true,
     autoplayTimeout: 7000,
-    smartSpeed: 10,
+    smartSpeed: 100,
     nav: true,
     responsive: {
       0: {

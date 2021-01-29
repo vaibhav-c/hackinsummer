@@ -74,8 +74,8 @@ margin-left: auto;
     padding-top: 15px;
   }
   .owl-dots button.owl-dot {
-    width: 15px;
-    height: 15px;
+    width: 10px !important;
+    height: 10px !important;
     border-radius: 50%;
     display: inline-block;
     background: #ccc;
@@ -101,12 +101,12 @@ margin-left: auto;
   .organiser-name
   {
     color:#a3aeba;
-    font-size: 25px;
+    font-size: 15px;
   }
   .organiser-role
   {
     color:#a3aeba;
-    font-size: 20px;
+    font-size: 12px;
   }
  
  
@@ -126,13 +126,13 @@ margin-left: auto;
  
  .btn-social { 
   display: inline-block; 
-  width: 28px; 
-  height: 28px; 
+  width: 20px; 
+  height: 20px; 
   border: 1px solid #bbbbbb; 
   border-radius: 100%; 
   text-align: center; 
-  font-size: 24px; 
-  line-height: 28px; 
+  font-size: 16px; 
+  line-height: 8px; 
 }
 
  
