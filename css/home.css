@@ -65,13 +65,14 @@ text set in the data-text attribute. */
 }
 
 .tagline {
-  color: white;
+  color: lightgrey;
   font-family: "Lato", sans-serif;
   transform: translateY(60px);
   text-transform: capitalize;
   letter-spacing: 1.3px;
+  font-weight: 700;
   word-spacing: 5px;
-  font-size: medium;
+  /* font-size: medium; */
 }
 
 

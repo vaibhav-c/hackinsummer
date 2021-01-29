@@ -15,7 +15,9 @@
     font-size: large;
     transition: 0.6s;
 }
-
+.owl-slider{
+  margin-top: 5em;
+}
 .contact_detail_head + p {
     margin-top: 15px;
     color: #8694a4;
@@ -50,11 +52,13 @@
   }
   .owl-item img
   {
-border-radius: 50%;
+    display: inline-block;
 box-shadow: 0 10px 20px rgba(0,0,0,0.12), 0 10px 20px rgba(0,0,0,0.24);
 transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-width:150px!important;
+width:150px !important;
 height:150px;
+object-fit: cover;
+border-radius: 50%;
 margin-left: auto;
   margin-right: auto;
   }
@@ -80,6 +84,8 @@ margin-left: auto;
     display: inline-block;
     background: #ccc;
     margin: 0 3px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
   }
   .owl-dots button.owl-dot.active {
     background-color: #000;
@@ -100,13 +106,16 @@ margin-left: auto;
   }
   .organiser-name
   {
+    margin-top: 14px;
     color:#a3aeba;
     font-size: 15px;
+    font-weight: 500;
   }
   .organiser-role
   {
     color:#a3aeba;
-    font-size: 12px;
+    font-size: 13px;
+    font-weight: 500;
   }
  
  
@@ -126,13 +135,13 @@ margin-left: auto;
  
  .btn-social { 
   display: inline-block; 
-  width: 20px; 
-  height: 20px; 
+  width: 30px; 
+  height: 30px; 
   border: 1px solid #bbbbbb; 
   border-radius: 100%; 
   text-align: center; 
   font-size: 16px; 
-  line-height: 8px; 
+  /* line-height: 8px;  */
 }
 
  
