@@ -61,12 +61,12 @@
 
 a.nav-link {
     letter-spacing: 0.8px;
-    color: lightgray !important;
+    color: white !important;
     transition: 0.8s;
 }
 
 a.nav-link:hover {
-    color: lightgray !important;
+    color: white !important;
     transform: translateY(-4px);
 }
 

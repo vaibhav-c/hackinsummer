@@ -25,6 +25,7 @@ body {
     letter-spacing: 1px;
     word-spacing: 5px;
     font-variant: small-caps;
+    font-weight: bolder;
 }
 
 .section_heading:hover {
