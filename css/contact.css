@@ -134,18 +134,22 @@ margin-left: auto;
    background: #bbbbbb; 
  }
  
- .btn-social { 
+ .btn-social {
   display: inline-block; 
   width: 30px; 
   height: 30px; 
   border: 1px solid #bbbbbb; 
   border-radius: 100%; 
-  text-align: center; 
+  text-align: center;
+  vertical-align: middle;
   font-size: 16px; 
   /* line-height: 8px;  */
 }
 
- 
+.icon {
+  position: relative;
+  top: 1px;
+} 
  
  .list-inline { 
    padding-left: 0; 
@@ -163,6 +167,8 @@ margin-left: auto;
    animation: fade-in-down 0.9s; 
    -webkit-animation-delay: 0.2s; 
    animation-delay: 0.2s; 
+   text-align: center;
+   padding-left: 12px;
  }
  
  /* Animations */
