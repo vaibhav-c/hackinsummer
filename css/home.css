@@ -85,6 +85,7 @@ text set in the data-text attribute. */
   font-weight: 700;
   font-size: 28px;
   letter-spacing: 2px;
+  margin-left: -1em;
 }
 
 #timer_field #days,
