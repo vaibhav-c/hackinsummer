@@ -33,6 +33,26 @@
     margin: 0;
 }
 
+.footer-center {
+    position: relative;
+    text-align: center;
+    top: 35px;
+}
+
+.footer-logo-jiit {
+    margin: 0 8px 0 8px;
+    text-align: center;
+    height: 60px !important;
+    width: 60px !important;
+}
+
+.footer-logo-dsc{
+    margin: 0 8px 0 8px;
+    text-align: center;
+    height: 60px !important;
+    width: 220px !important;
+}
+
 
 /* Footer links */
 
@@ -116,5 +136,26 @@
     }
     .footer-distributed {
         padding: 20px 50px 7px 50px;
+    }
+    .footer-center {
+        text-align: center;
+        position: relative;
+        top: -16px;
+    }
+
+    .footer-logo-jiit {
+        margin-left: 6px;
+        margin-right: 0px;
+        text-align: center;
+        height: 40px !important;
+        width: 40px !important;
+    }
+
+    .footer-logo-dsc{
+        margin-right: 6px;
+        margin-left: 0px;
+        text-align: center;
+        height: 40px !important;
+        width: 147px !important;
     }
 }
