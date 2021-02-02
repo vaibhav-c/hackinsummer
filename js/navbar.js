@@ -2,7 +2,7 @@
 
 var hour  = (new Date).getHours() ;
 
-if(!(hour >= 6 && hour <=18))
+if((hour >= 6 && hour <=18))
 {
     var body = document.querySelector('.Landing');
     body.classList.add('addon')

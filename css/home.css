@@ -227,7 +227,7 @@ text set in the data-text attribute. */
   height: 100%;
   width: 100%;
   position: absolute;
-  z-index: 3;
+  z-index: 1;
   -webkit-filter: drop-shadow(5px 5px 5px #222 );
       filter: drop-shadow(0px 32px 15px #212);
 }
@@ -580,6 +580,8 @@ pointer-events: none;
 
 .stars {
   width: 100%;
+  position: absolute;
+  top: 16em;
 }
 
 .star {
