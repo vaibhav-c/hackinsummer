@@ -3,7 +3,7 @@
     padding: 16px;
     border-color: #a3aeba;
     width: 300px !important;
-    height: 280px !important;
+    height: 300px !important;
     text-align: center;
     border-radius: 12px;
     margin-right: 24px;
@@ -35,24 +35,19 @@
 }
 
 .tracks-row {
-    display: flex;
-    width: 100%;
-    text-align: center !important;
-    margin-right: 0px;
     margin-top: 48px;
-    margin-left: 42px;
 }
 
 @media (max-width: 576px) {
     .track-card {
         border-color: #a3aeba;
         width: 240px !important;
-        height: 300px !important;
+        height: 340px !important;
         text-align: center;
         border-radius: 12px;
         margin-top: 24px;
         margin-right: 0px !important;
-        margin-left: 0px !important;
+        margin-left: 24px !important;
     }
     
     .track-card:hover {
@@ -63,7 +58,6 @@
     .track-image {
         height: 100px;
         width: 100px;
-        margin-top: 12px;
     }
     
     .track-title {
@@ -85,11 +79,12 @@
         width: 300px !important;
         text-align: center !important;
         margin-top: 0px;
-        margin-left: 36px;
+        overflow-x: none;
     }
 
     .tracks-section {
         width: 340px;
         text-align: center;
+        overflow-x: none;
     }
 }
