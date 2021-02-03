@@ -63,3 +63,25 @@ const openHumbergerMenu = () => {
 }
 
 
+const element = document.querySelector('.img10')
+document.addEventListener('scroll', (event) => {
+  if (!element) return
+  element.style.transform = `translateY(${window.scrollY * 0.2}px)`
+})
+
+const element2 = document.querySelector('.img9')
+document.addEventListener('scroll', (event) => {
+  if (!element2) return
+  element2.style.transform = `translateY(${window.scrollY * 0.15}px)`
+})
+const element3 = document.querySelector('.img8')
+document.addEventListener('scroll', (event) => {
+  if (!element3) return
+  element3.style.transform = `translateY(${window.scrollY * 0.1}px)`
+})
+
+const element4 = document.querySelector('.img7')
+document.addEventListener('scroll', (event) => {
+  if (!element4) return
+  element4.style.transform = `translateY(${window.scrollY * 0.05}px)`
+})
