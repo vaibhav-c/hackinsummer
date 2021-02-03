@@ -35,7 +35,7 @@
 }
 
 .tracks-row {
-    margin-top: 48px;
+    margin-top: 60px !important;
 }
 
 @media (max-width: 576px) {
