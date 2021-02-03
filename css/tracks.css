@@ -6,8 +6,8 @@
     height: 280px !important;
     text-align: center;
     border-radius: 12px;
-    margin-left: 24px;
     margin-right: 24px;
+    margin-left: 24px;
 }
 
 .track-card:hover {
@@ -35,10 +35,12 @@
 }
 
 .tracks-row {
+    display: flex;
     width: 100%;
     text-align: center !important;
-    margin-right: 100px;
+    margin-right: 0px;
     margin-top: 48px;
+    margin-left: 42px;
 }
 
 @media (max-width: 576px) {
@@ -49,12 +51,14 @@
         text-align: center;
         border-radius: 12px;
         margin-top: 24px;
+        margin-right: 0px !important;
+        margin-left: 0px !important;
     }
     
-.track-card:hover {
-    box-shadow: 1px 1px 8px 1px #a3aeba;
-    background-color:  #2a5f80;
-}
+    .track-card:hover {
+        box-shadow: 1px 1px 8px 1px #a3aeba;
+        background-color:  #2a5f80;
+    }
     
     .track-image {
         height: 100px;
@@ -77,21 +81,15 @@
     }
     
     .tracks-row {
-        width: 320px !important;
+        display: block;
+        width: 300px !important;
         text-align: center !important;
         margin-top: 0px;
-        margin-left: 28px;
+        margin-left: 36px;
     }
 
-    .tracks {
+    .tracks-section {
+        width: 340px;
         text-align: center;
-        display: flex;
-        vertical-align: middle;
-        padding-right: 0px !important;
-        width: 340px !important;
-    }
-
-    .row {
-        margin-right: -5px;
     }
 }
