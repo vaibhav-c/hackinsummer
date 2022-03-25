@@ -7,7 +7,7 @@
 
 #contact_section .contact_detail_head {
     text-transform: uppercase;
-    color: #a3aeba;
+    color: #ffe864;
     letter-spacing: 1px;
 }
 
@@ -25,14 +25,14 @@
 }
 
 .middle_contact_grid {
-    border-right: 1px solid rgba(163, 174, 186, 0.4);
+    border-right: 1px solid rgba(167, 186, 163, 0.4);
 }
 
 .contact_social_box {
     display: flex;
     justify-content: center;
     padding: 0 20px;
-    color: #8694a4;
+    color: #86a488;
     letter-spacing: 0.5px;
     font-size: smaller;
     /* text-transform: uppercase; */
@@ -89,7 +89,7 @@ margin-left: auto;
 
   }
   .owl-dots button.owl-dot.active {
-    background-color: #407ba3;
+    background-color: #43a340;
   }
   .owl-dots button.owl-dot:focus {
     outline: none;
@@ -108,13 +108,13 @@ margin-left: auto;
   .organiser-name
   {
     margin-top: 14px;
-    color:#a3aeba;
+    color:#ffe864;
     font-size: 18px;
     font-weight: 500;
   }
   .organiser-role
   {
-    color:#a3aeba;
+    color:#ffe864;
     font-size: 15px;
     font-weight: 500;
   }
@@ -122,23 +122,23 @@ margin-left: auto;
  
 .btn-outline { 
   margin-top: 15px; 
-  border: solid 1px #bbbbbb;    
+  border: solid 1px #ffe864;    
   font-size: 14px; 
-  color: #bbbbbb; 
+  color: #ffe864; 
   background: 0 0; 
   transition: all .3s ease-in-out; 
  }
  .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active { 
-   border: solid 1px #bbbbbb;    
+   border: solid 1px #ffe864;    
    color: #000; 
-   background: #bbbbbb; 
+   background: #ffe864; 
  }
  
  .btn-social {
   display: inline-block; 
   width: 30px; 
   height: 30px; 
-  border: 1px solid #bbbbbb; 
+  border: 1px solid #ffe864; 
   border-radius: 100%; 
   text-align: center;
   vertical-align: middle;
