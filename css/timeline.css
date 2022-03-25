@@ -7,7 +7,7 @@
   left: 50%;
   width: 2px;
   top: -20px;
-  background: #a3aeba80;
+  background: #a3baa580;
   z-index: 1;
 }
 .timeline {
@@ -34,21 +34,21 @@
 }
 
 .timeline ul li .right_content h2 {
-  color: rgba(59, 112, 239, 1);
+  color: rgba(65, 239, 59, 1);
   padding: 0px 2px 18px 0px;
 }
 .timeline ul li:nth-child(odd) {
   float: left;
   text-align: right;
   clear: both;
-  color: #a3aeba;
+  color: #ffe864;
 }
 
 .timeline ul li:nth-child(even) {
   float: right;
   text-align: left;
   clear: both;
-  color: #a3aeba;
+  color: #ffe864;
 }
 
 .left_content {
@@ -60,9 +60,9 @@
   position: absolute;
   width: 10px;
   height: 10px;
-  background: rgba(59, 112, 239, 1);
+  background: rgba(65, 239, 59, 1);
   border-radius: 50%;
-  box-shadow: 0 0 0 3px rgba(58, 112, 239, 0.2);
+  box-shadow: 0 0 0 3px rgba(64, 239, 58, 0.2);
   right: -6px;
   top: 24px;
   z-index: 1;
@@ -73,9 +73,9 @@
   position: absolute;
   width: 10px;
   height: 10px;
-  background: rgba(59, 112, 239, 1);
+  background: rgb(65, 239, 59);
   border-radius: 50%;
-  box-shadow: 0 0 0 3px rgba(58, 112, 239, 0.2);
+  box-shadow: 0 0 0 3px rgba(64, 239, 58, 0.2);
   left: -6px;
   top: 24px;
 }
@@ -88,7 +88,7 @@
   padding: 8px 16px;
 
   color: #fff;
-  box-shadow: 0 0 0 3px #6f409b;
+  box-shadow: 0 0 0 3px #9a1b1b;
   border-radius: 18px;
 }
 
@@ -100,7 +100,7 @@
   padding: 8px 16px;
 
   color: #fff;
-  box-shadow: 0 0 0 3px #6f409b;
+  box-shadow: 0 0 0 3px #9a1b1b;
   border-radius: 18px;
 }
 

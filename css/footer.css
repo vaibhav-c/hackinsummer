@@ -15,10 +15,10 @@
 }
 
 .footer-distributed {
-    background: #27648B;
-    background: -webkit-linear-gradient(bottom, #27648B, #225779);
-    background: -moz-linear-gradient(bottom, #27648B, #225779);
-    background: linear-gradient(to top, #27648B, #225779);
+    background: #317922;
+    /*background: -webkit-linear-gradient(bottom, #278b34, #297922);
+    background: -moz-linear-gradient(bottom, #278b34, #297922);
+    background: linear-gradient(to top, #278b34, #297922);*/
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
     width: 100%;
@@ -28,7 +28,7 @@
 }
 
 .footer-distributed .footer-left span {
-    color: #8f9296;
+    color: #fff;
     font-size: 14px;
     margin: 0;
 }
@@ -99,7 +99,7 @@
 .footer-distributed .footer-right a {
     display: inline-block;
     width: 35px;
-    background-color: #407ba3;
+    background-color: #317922;
     border-radius: 2px;
     font-size: 20px;
     color: #ffffff;

@@ -21,7 +21,7 @@
 }
 
 .sub {
-  color: #64dcdc;
+  color: #94ff9a;
   letter-spacing: 1em;
 }
 
@@ -192,7 +192,7 @@ text set in the data-text attribute. */
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: #225779;
+  background: #94ff9a;
   color: lightpink;
   overflow: hidden;
 }

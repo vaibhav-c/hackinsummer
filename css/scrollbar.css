@@ -13,7 +13,7 @@
 }
 
 .scrollbar_link {
-    border-left: 1.5px solid rgba(119, 136, 153, 1);
+    border-left: 1.5px solid rgb(119, 153, 119);
     border-radius: 6px;
     padding: 14px 10px;
     text-decoration: none;
