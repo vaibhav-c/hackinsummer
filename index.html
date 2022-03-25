@@ -8,7 +8,7 @@
 
     <!-- || title tag -->
     <title>Hackin' Summers</title>
-    <link rel="icon" type="image/icon" href="./assets/dsc_logo.png" />
+    <link rel="icon" type="image/icon" href="./assets/jiit_logo.png" />
 
     <!-- || Inbuilt CSS CDNs -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -68,11 +68,15 @@
             </div>
 
             <div class="mt-4">
-                <a href="#previous_year_event" class="humberger_link" onclick="switchToSection()">Tracks</a>
+                <a href="#tracks" class="humberger_link" onclick="switchToSection()">Tracks</a>
             </div>
 
             <div class="mt-4">
                 <a href="#schedules" class="humberger_link" onclick="switchToSection()">Timeline</a>
+            </div>
+
+            <div class="mt-4">
+                <a href="#side_event_section" class="humberger_link" onclick="switchToSection()">Side Events</a>
             </div>
 
             <div class="mt-4">
@@ -136,20 +140,23 @@
                                         class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item px-2">
-                                <a class="nav-link" href="#previous_year_event">Tracks</a>
+                                <a class="nav-link" href="#tracks">Tracks</a>
                             </li>
                             <li class="nav-item px-2">
                                 <a class="nav-link" href="#schedules">Timeline</a>
                             </li>
+                            <!--<li class="nav-item px-2">
+                                <a class="nav-link" href="#side_events">Side Events</a>
+                            </li>-->
                             <li class="nav-item px-2">
                                 <a class="nav-link" href="#prizes">Prizes</a>
                             </li>
                             <li class="nav-item px-2">
                                 <a class="nav-link" href="#faq_section">FAQs</a>
                             </li>
-                            <li class="nav-item px-2">
+                            <!--<li class="nav-item px-2">
                                 <a class="nav-link" href="#sponsors_section">Sponsors</a>
-                            </li>
+                            </li>-->
                             <li class="nav-item px-2">
                                 <a class="nav-link" href="#speakers_section">Speakers</a>
                             </li>
@@ -250,6 +257,7 @@
                 <h3 class="section_heading glitch-font" data-text="ABOUT THE EVENT" data-aos="fade-up">
                     <span class="glitch-font-h3">ABOUT THE EVENT</span>
                 </h3>
+                
 
                 <!-- About Content -->
                 <div class="row">
@@ -290,12 +298,12 @@
         <!-- || About Section [END] -->
 
 
-        <!-- || Previous Year Event Section [START] -->
-        <section class="previous_year_event" id="previous_year_event">
+        <!-- || Tracks Section [START] -->
+        <section class="previous_year_event" id="tracks">
             <div class="tracks-section container pt-4 pb-5">
                 <!-- Section Heading -->
-                <h3 class="section_heading glitch-font" data-text="Hackin' Summers" data-aos="fade-up">
-                    <span class="glitch-font-h3">Tracks</span>
+                <h3 class="section_heading glitch-font" data-text="TRACKS" data-aos="fade-up">
+                    <span class="glitch-font-h3">TRACKS</span>
                 </h3>
 
                 <!-- Tracks -->
@@ -365,12 +373,12 @@
 
             </div>
         </section>
-        <!-- || Previous Year Event Section [END] -->
+        <!-- || Tracks Section [END] -->
 
-        <section class="side_event" id="side_event">
+        <section class="side_event" id="side_events">
             <div class="container pt-4 pb-5">
                 <!-- Section Heading -->
-                <h3 class="section_heading glitch-font" data-text="Hackin' Summers" data-aos="fade-up">
+                <h3 class="section_heading glitch-font" data-text="SIDE EVENTS" data-aos="fade-up">
                     <span class="glitch-font-h3">SIDE EVENTS</span>
                 </h3>
 
@@ -425,7 +433,7 @@
 
         <section class="schedules" id="schedules">
             <div class="container pt-4 pb-5">
-                <h3 class="section_heading glitch-font" data-text="Hackin' Summers" data-aos="fade-up">
+                <h3 class="section_heading glitch-font" data-text="TIMELINE" data-aos="fade-up">
                     <span class="glitch-font-h3">TIMELINE</span>
                 </h3>
 
@@ -489,8 +497,8 @@
         <section class="prizes py-4 mt-4" id="prizes">
             <div class="container">
                 <!-- Heading -->
-                <h3 class="section_heading glitch-font" data-text="Prizes" data-aos="fade-up">
-                    <span class="h3">Prizes</span>
+                <h3 class="section_heading glitch-font" data-text="PRIZES" data-aos="fade-up">
+                    <span class="glitch-font-h3">PRIZES</span>
                 </h3>
             </div>
             <div class="wrapper-1">
@@ -499,8 +507,19 @@
                         
                     </div>
                     <div class="descriptions">
-                        <b style="font-size: 30px;">Individual Prizes</b><br><br>
+                        <br>
+                        <div id="wrapper">
+                            <h1 style = "font-size: 2rem; color: black;" class="glitch" data-aos="fade-down">INDIVIDUAL PRIZES</h1>
+                            <h1 class="glitch"></h1>
+                        </div>
+                        <br>
+                        <br>
+                        <div id="wrapper">
+                            <h1 style = "font-size: 2rem" class="glitch" data-aos="fade-down">TO BE ANNOUNCED</h1>
+                            <h1 class="glitch"></h1>
+                        </div>
                     </div>
+                    
                 </div>
             </div>
         </section>
@@ -511,8 +530,8 @@
         <section id="faq_section" class="pt-lg-5 pt-4">
             <div class="container pt-4">
                 <!-- Heading -->
-                <h3 class="section_heading glitch-font" data-text="F.A.Q" data-aos="fade-up">
-                    <span class="glitch-font-h3">F.A.Q</span>
+                <h3 class="section_heading glitch-font" data-text="F.A.Q." data-aos="fade-up">
+                    <span class="glitch-font-h3">F.A.Q.</span>
                 </h3>
 
                 <!-- Questions -->
@@ -840,8 +859,8 @@
 
         <section class="sponsors_section pt-lg-5" id="sponsors_section">
             <!-- Heading -->
-            <h3 class="section_heading glitch-font mt-5" data-text="Sponsors" data-aos="fade-up">
-                <span class="glitch-font-h3">Sponsors</span>
+            <h3 class="section_heading glitch-font mt-5" data-text="SPONSORS" data-aos="fade-up">
+                <span class="glitch-font-h3">SPONSORS</span>
             </h3>
 
             <!-- Content -->
@@ -897,8 +916,8 @@
 
         <section class="speakers_section pt-lg-5" id="speakers_section">
             <!-- Heading -->
-            <h3 class="section_heading glitch-font mt-5" data-text="Speakers" data-aos="fade-up">
-                <span class="glitch-font-h3">Speakers</span>
+            <h3 class="section_heading glitch-font mt-5" data-text="SPEAKERS" data-aos="fade-up">
+                <span class="glitch-font-h3">SPEAKERS</span>
             </h3>
             <div id="wrapper">
                 <h1 style = "font-size: 2rem" class="glitch" data-aos="fade-down">TO BE ANNOUNCED</h1>
@@ -910,8 +929,8 @@
         <!-- Judges section ends -->
         <section class="judges_section pt-lg-5" id="judges_section">
             <!-- Heading -->
-            <h3 class="section_heading glitch-font mt-5" data-text="Judges" data-aos="fade-up">
-                <span class="glitch-font-h3">Judges</span>
+            <h3 class="section_heading glitch-font mt-5" data-text="JUDGES" data-aos="fade-up">
+                <span class="glitch-font-h3">JUDGES</span>
             </h3>
             <div id="wrapper">
                 <h1 style = "font-size: 2rem" class="glitch" data-aos="fade-down">TO BE ANNOUNCED</h1>
@@ -921,11 +940,14 @@
 
         <!--Judges section ends -->
 
+
+        <!--Faculty section begins-->
+
         <section id="team_section" class="py-md-5">
             <div class="container pt-5">
                 <!-- Heading -->
-                <h3 class="section_heading" data-text="Team" data-aos="fade-up">
-                    <span>JIIT Faculty</span>
+                <h3 class="section_heading" data-text="JIIT FACULTY" data-aos="fade-up">
+                    <span class="glitch-font-h3">JIIT FACULTY</span>
                 </h3>
                 <div class="owl-slider" data-aos="fade-up">
                     <div id="carousel-1" class="owl-carousel">
@@ -1031,10 +1053,11 @@
                         </div>
                     </div>
                 </div>
+                <!-- Faculty section ends -->
                 <br>
                 <br>
-                <h3 class="section_heading" data-text="Team" data-aos="fade-up">
-                    <span>Organising Team</span>
+                <h3 class="section_heading" data-text="ORGANISING TEAM" data-aos="fade-up">
+                    <span class="glitch-font-h3">ORGANISING TEAM</span>
                 </h3>
                 <!-- Organising Team -->
                 <!-- Links set properly -->
@@ -1202,14 +1225,17 @@
                 <div class="footer-center">
                     <img class="footer-logo-jiit" src="assets/jiit_logo.png">
                     <img class="footer-logo-dsc" src="assets/dsc_text_Noida.png">
+                    <img class="footer-logo-dsc" src="assets/dsc_text_Noida.png">
+                    <img class="footer-logo-dsc" src="assets/dsc_text_Noida.png">
+                    <img class="footer-logo-dsc" src="assets/dsc_text_Noida.png">
                 </div>
 
                 <div class="footer-right">
-                    <a href="https://www.facebook.com/dscjiitnoida/" target="_blank"><i class="fa fa-facebook"></i></a>
-                    <a href="https://twitter.com/gdg_jiit_noida?lang=en" target="_blank"><i
-                            class="fa fa-twitter"></i></a>
-                    <a href="https://www.linkedin.com/company/dscjiitnoida/" target="_blank"><i
-                            class="fa fa-linkedin"></i></a>
+                    <!--<a href="https://www.facebook.com/dscjiitnoida/" target="_blank"><i class="fa fa-facebook"></i></a>-->
+                    <!--<a href="https://twitter.com/gdg_jiit_noida?lang=en" target="_blank"><i
+                            class="fa fa-twitter"></i></a>-->
+                    <!--<a href="https://www.linkedin.com/company/dscjiitnoida/" target="_blank"><i
+                            class="fa fa-linkedin"></i></a>-->
                     <a href="https://www.instagram.com/dscjiit/" target="_blank"><i class="fa fa-instagram"></i></a>
                     <a href="https://www.youtube.com/channel/UCMqzTZkzwdDOuTzYbSZY8jw" target="_blank"><i
                             class="fa fa-youtube"></i></a>
