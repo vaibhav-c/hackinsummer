@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- || title tag -->
-    <title>Hackin' Summer</title>
+    <title>Hackin' Summers</title>
     <link rel="icon" type="image/icon" href="./assets/dsc_logo.png" />
 
     <!-- || Inbuilt CSS CDNs -->
@@ -33,7 +33,9 @@
     <link rel="stylesheet" href="./css/footer.css" />
     <link rel="stylesheet" href="./css/timeline.css" />
     <link rel="stylesheet" href="./css/sponsors.css" />
-    <link rel="stylesheet" href="./css/tracks.css">
+    <link rel="stylesheet" href="./css/tracks.css"/>
+    <link rel="stylesheet" href="./css/speakers.css"/>
+    <link rel="stylesheet" href="./css/text-glitch.css"/>
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -79,11 +81,19 @@
             </div>
 
             <div class="mt-4">
-                <a href="#faq_section" class="humberger_link" onclick="switchToSection()">F.a.q</a>
+                <a href="#faq_section" class="humberger_link" onclick="switchToSection()">F.A.Q</a>
             </div>
 
             <div class="mt-4">
                 <a href="#sponsors_section" class="humberger_link" onclick="switchToSection()">Sponsors</a>
+            </div>
+
+            <div class="mt-4">
+                <a href="#judges_section" class="humberger_link" onclick="switchToSection()">Judges</a>
+            </div>
+
+            <div class="mt-4">
+                <a href="#speakers_section" class="humberger_link" onclick="switchToSection()">Speakers</a>
             </div>
 
             <div class="mt-4">
@@ -140,6 +150,12 @@
                             </li>
                             <li class="nav-item px-2">
                                 <a class="nav-link" href="#sponsors_section">Sponsors</a>
+                            </li>
+                            <li class="nav-item px-2">
+                                <a class="nav-link" href="#speakers_section">Speakers</a>
+                            </li>
+                            <li class="nav-item px-2">
+                                <a class="nav-link" href="#judges_section">Judges</a>
                             </li>
                             <li class="nav-item px-2">
                                 <a class="nav-link" href="#contact_section">Team</a>
@@ -213,12 +229,12 @@
                 </div>
                 <div id="app">
                     <div id="wrapper">
-                        <h1 class="glitch" data-aos="fade-down">Hackin' Summer</h1>
+                        <h1 class="glitch" data-aos="fade-down">Hackin' Summers</h1>
                         <h1 class="glitch"></h1>
                     </div>
 
                     <div class="row pb-5" data-aos="fade-up">
-                        <h5 class="tagline">A summer to remember</h5>
+                        <h5 class="tagline">Tagline</h5>
                     </div>
 
 
@@ -245,14 +261,14 @@
 
                     <!-- About Content -->
                     <div class="col-lg-6 col-md-10 offset-lg-0 offset-md-2" data-aos="fade-up">
-                        <h3 class="about_us_heading mb-sm-4 mb-3 mt-5">Hackin' Summer
+                        <h3 class="about_us_heading mb-sm-4 mb-3 mt-5">Hackin' Summers
                         </h3>
 
                         <div class="row pt-sm-4 pt-3">
                             <div class="col-2 about_division"></div>
                             <div class="col-10">
                                 <p class="about_content pl-3">
-                                    Hackin' Summer is one of the biggest and most awaited student-held Hackathon of Delhi
+                                    Hackin' Summers is one of the biggest and most awaited student-held Hackathon of Delhi
                                     NCR organized by JIIT Noida this year, where you can convert your crazy ideas to a reality.
                                     This hackathon will be a great platform for all pro-players in the field and at the
                                     same time a kickstart for new hackers willing to join the league and find their
@@ -279,7 +295,7 @@
         <section class="previous_year_event" id="previous_year_event">
             <div class="tracks-section container pt-4 pb-5">
                 <!-- Section Heading -->
-                <h3 class="section_heading glitch-font" data-text="Hackin' Summer" data-aos="fade-up">
+                <h3 class="section_heading glitch-font" data-text="Hackin' Summers" data-aos="fade-up">
                     <span class="glitch-font-h3">Tracks</span>
                 </h3>
 
@@ -342,7 +358,7 @@
                             <div class="card-body">
                                 <img class="track-image" alt="Open Innovation" src="./assets/open-innovation.png">
                                 <h5 class="card-title track-title">Open Innovation</h5>
-                                <p class="card-text track-desc">Open innovation is also welcome at Hackin' Summer.</p>
+                                <p class="card-text track-desc">Open innovation is also welcome at Hackin' Summers.</p>
                             </div>
                         </div>
                     </div>
@@ -355,7 +371,7 @@
         <section class="side_event" id="side_event">
             <div class="container pt-4 pb-5">
                 <!-- Section Heading -->
-                <h3 class="section_heading glitch-font" data-text="Hackin' Summer" data-aos="fade-up">
+                <h3 class="section_heading glitch-font" data-text="Hackin' Summers" data-aos="fade-up">
                     <span class="glitch-font-h3">SIDE EVENTS</span>
                 </h3>
 
@@ -410,7 +426,7 @@
 
         <section class="schedules" id="schedules">
             <div class="container pt-4 pb-5">
-                <h3 class="section_heading glitch-font" data-text="Hackin' Summer" data-aos="fade-up">
+                <h3 class="section_heading glitch-font" data-text="Hackin' Summers" data-aos="fade-up">
                     <span class="glitch-font-h3">TIMELINE</span>
                 </h3>
 
@@ -477,12 +493,17 @@
                 <h3 class="section_heading glitch-font" data-text="Prizes" data-aos="fade-up">
                     <span class="h3">Prizes</span>
                 </h3>
-                <div class="sponsors_link mb-md-0 mb-3" data-aos="fade-up">
-                    <p style="color:#a3aeba;">We have a Total Prize Pool of Rs 2 Lakhs, Swags, Goodies and Internship
-                        Opportunities.</p>
+            </div>
+            <div class="wrapper-1">
+                <div class="card-1">
+                    <div id = "front">
+                        
+                    </div>
+                    <div class="descriptions">
+                        <b style="font-size: 30px;">Individual Prizes</b><br><br>
+                    </div>
                 </div>
             </div>
-
         </section>
         <!-- || Prizes Section [END] -->
 
@@ -548,7 +569,7 @@
                                     <div class="row">
                                         <div class="col-sm-1 col-2 faq_division"></div>
                                         <div class="col-sm-11 col-10">
-                                            No, it is absolutely FREE to participate in Hackin' Summer. All you need is an
+                                            No, it is absolutely FREE to participate in Hackin' Summers. All you need is an
                                             innovative mind and enthusiasm.
                                         </div>
                                     </div>
@@ -577,7 +598,7 @@
                                         <div class="col-sm-1 col-2 faq_division"></div>
                                         <div class="col-sm-11 col-10">
                                             Every University student with an innovative mind and a great problem solving
-                                            attitude is eligible to participate in Hackin' Summer.
+                                            attitude is eligible to participate in Hackin' Summers.
                                         </div>
                                     </div>
                                 </div>
@@ -667,7 +688,7 @@
                             </div>
                         </div>
 
-                        <!-- <div class="card">
+                        <!---<div class="card">
                             <div class="card-header" id="faqHeadTen">
                                 <div class="row">
                                     <div class="col-sm-1 col-2">
@@ -687,7 +708,7 @@
                                     <div class="row">
                                         <div class="col-sm-1 col-2 faq_division"></div>
                                         <div class="col-sm-11 col-10">
-                                            Hackin' Summer has a total prize pool of Rs. 2 lacs+. Also, we have loads of goodies, swags, vouchers and internship opportunities in our bag for the participating teams.
+                                            Hackin' Summers has a total prize pool of Rs. 2 lacs+. Also, we have loads of goodies, swags, vouchers and internship opportunities in our bag for the participating teams.
                                         </div>
                                     </div>
                                 </div>
@@ -734,7 +755,7 @@
                                         <a class="faq_link" data-toggle="collapse" data-target="#faqTwelve"
                                             aria-expanded="true" aria-controls="faqTwelve">
                                             I have never participated in a hackathon before, will it be a good idea to
-                                            participate in Hackin' Summer?
+                                            participate in Hackin' Summers?
                                         </a>
                                     </div>
                                 </div>
@@ -872,6 +893,33 @@
                 </div>
             </div>
         </section>
+
+        <!--Speaker Section-->
+
+        <section class="speakers_section pt-lg-5" id="speakers_section">
+            <!-- Heading -->
+            <h3 class="section_heading glitch-font mt-5" data-text="Speakers" data-aos="fade-up">
+                <span class="glitch-font-h3">Speakers</span>
+            </h3>
+            <p class="text--glitch"  data-text="TO BE ANNOUNCED">
+                TO BE ANNOUNCED
+            </p>
+        </section>
+
+        <!-- Speaker section ends -->
+
+        <!-- Judges section ends -->
+        <section class="judges_section pt-lg-5" id="judges_section">
+            <!-- Heading -->
+            <h3 class="section_heading glitch-font mt-5" data-text="Judges" data-aos="fade-up">
+                <span class="glitch-font-h3">Judges</span>
+            </h3>
+            <p class="text--glitch"  data-text="TO BE ANNOUNCED">
+                TO BE ANNOUNCED
+            </p>
+        </section>
+
+        <!--Judges section ends -->
 
         <section id="contact_section" class="py-md-5">
             <div class="container pt-5">
