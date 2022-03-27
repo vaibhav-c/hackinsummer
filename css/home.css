@@ -21,7 +21,7 @@
 }
 
 .sub {
-  color: #64dcdc;
+  color: #94ff9a;
   letter-spacing: 1em;
 }
 
@@ -39,7 +39,7 @@ text set in the data-text attribute. */
   /* Animation provies a slight random skew. Check bottom of doc
   for more information on how to random skew. */
   /* animation: glitch-skew 1s infinite linear alternate-reverse; */
-  color: lightgray;
+  color: #000;
   text-shadow: 0px 1px 2px white;
 }
 
@@ -65,7 +65,7 @@ text set in the data-text attribute. */
 }
 
 .tagline {
-  color: white;
+  color: black;
   font-family: "Lato", sans-serif;
   transform: translateY(60px);
   text-transform: capitalize;
@@ -80,7 +80,7 @@ text set in the data-text attribute. */
 /* Deadline Timer */
 
 #timer_field {
-  color: white;
+  color: black;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 28px;
@@ -192,7 +192,7 @@ text set in the data-text attribute. */
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: #225779;
+  background: #94ff9a;
   color: lightpink;
   overflow: hidden;
 }

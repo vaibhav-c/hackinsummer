@@ -61,29 +61,29 @@
 
 a.nav-link {
     letter-spacing: 0.8px;
-    color: white !important;
+    color: #000 !important;
     transition: 0.8s;
 }
 
 a.nav-link:hover {
-    color: white !important;
+    color: black !important;
     transform: translateY(-4px);
 }
 
 .navbar_register_btn {
     font-weight: 500;
     text-transform: uppercase;
-    border: 1.5px solid lightgrey;
+    border: 1.5px solid rgb(0, 0, 0);
     letter-spacing: 1px;
-    color: lightgrey;
+    color: rgb(0, 0, 0);
     padding: 5px 20px;
     transition: 0.8s;
 }
 
 .navbar_register_btn:hover {
-    color: rgb(34, 53, 73);
-    background: rgb(163,174,186);
-    border: 1.5px solid rgb(163,174,186);
+    color: rgb(0, 0, 0);
+    background: rgb(0, 0, 0);
+    border: 1.5px solid rgb(0, 0, 0);
     transform: translateY(-4px);
 }
 
@@ -128,7 +128,7 @@ a.humberger_link {
     text-align: center;
     display: block;
     margin: auto;
-    color: #a3aeba;
+    color: black;
     font-size: 17px;
     letter-spacing: 1px;
     font-family: 'Josefin Sans', sans-serif;
@@ -140,14 +140,14 @@ a.humberger_link {
 a.humberger_link:active,
 a.humberger_link:focus {
     outline: none;
-    color: lightgrey;
+    color: rgb(0, 0, 0);
     transform: translateY(-8px);
 }
 
 .close_humberger_menu_btn {
     float: right;
     font-size: 32px;
-    color: lightgrey;
+    color: black;
     background: transparent;
     border: none;
     transition: 0.7s;
@@ -164,12 +164,12 @@ a.humberger_link:focus {
     margin-right: 5px;
     padding: 5px 8px;
     font-size: 24px;
-    color: #afbbc2;
+    color: black;
     transition: all 0.5s;
 }
 
 .humberger_social_media_box a:hover {
-    color: #ffffff;
+    color: black;
     transform: scale(1.2) !important;
 }
 
