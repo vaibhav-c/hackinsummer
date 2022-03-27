@@ -50,7 +50,7 @@ var Nodes = {
     }
 
     // Load initial input image (the chrome logo!)
-    this.loadData('../assets/thought.svg');
+    this.loadData('../assets/island_scene.svg');
   },
 
   preparePoints: function() {
