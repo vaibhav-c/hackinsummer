@@ -12,14 +12,14 @@ html {
 }
 
 body {
-  background-color: #317922;
+  background-color: #fff9b6;
   overflow-x: none;
 }
 
 /******** Section Heading */
 
 .section_heading {
-  color: #ffe864;
+  color: #a2d2ff;
   text-align: center;
   margin-bottom: 40px !important;
   letter-spacing: 1px;
@@ -50,12 +50,12 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(33, 70, 32);
+  background: #fff9b6;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(33, 70, 30);
+  background: #fff9b6;
 }
 .ergodetails {
   /* background-color: black; */

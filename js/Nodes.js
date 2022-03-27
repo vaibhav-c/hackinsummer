@@ -50,7 +50,7 @@ var Nodes = {
     }
 
     // Load initial input image (the chrome logo!)
-    this.loadData('../assets/patti.svg');
+    this.loadData('../assets/flag.svg');
   },
 
   preparePoints: function() {

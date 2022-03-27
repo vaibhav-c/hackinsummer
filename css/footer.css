@@ -15,7 +15,7 @@
 }
 
 .footer-distributed {
-    background: #317922;
+    background: #fff9b6;
     /*background: -webkit-linear-gradient(bottom, #278b34, #297922);
     background: -moz-linear-gradient(bottom, #278b34, #297922);
     background: linear-gradient(to top, #278b34, #297922);*/
@@ -99,7 +99,7 @@
 .footer-distributed .footer-right a {
     display: inline-block;
     width: 35px;
-    background-color: #317922;
+    background-color: #fff9b6;
     border-radius: 2px;
     font-size: 20px;
     color: #ffffff;
