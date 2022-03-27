@@ -1,7 +1,7 @@
 .track-card {
-    background-color:  #1d701d;
+    background-color:  #fcdea1;
     padding: 16px;
-    border-color: #ffe864;
+    border-color: #000000;
     width: 300px !important;
     height: 300px !important;
     text-align: center;
@@ -11,8 +11,8 @@
 }
 
 .track-card:hover {
-    background-color:  #2a8031;
-    box-shadow: 1px 1px 8px 1px #ffe864;
+    background-color:  #ffe4ad;
+    box-shadow: 1px 1px 8px 1px #000000;
 }
 
 .track-image {
@@ -21,7 +21,7 @@
 }
 
 .track-title {
-    color: #ffe864;
+    color: #000000;
     margin-top: 16px;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
@@ -29,7 +29,7 @@
 }
 
 .track-desc {
-    color: #ffe864;
+    color: #000000;
     margin-top: 12px;
     font-family: 'Lato', sans-serif;
 }
@@ -40,7 +40,7 @@
 
 @media (max-width: 576px) {
     .track-card {
-        border-color: #ffe864;
+        border-color: #ffd98c;
         width: 240px !important;
         height: 340px !important;
         text-align: center;
@@ -51,8 +51,8 @@
     }
     
     .track-card:hover {
-        box-shadow: 1px 1px 8px 1px #ffe864;
-        background-color:  #34802a;
+        box-shadow: 1px 1px 8px 1px;
+        background-color: #000000;
     }
     
     .track-image {
@@ -61,7 +61,7 @@
     }
     
     .track-title {
-        color: #ffe864;
+        color: #ffd98c;
         margin-top: 16px;
         font-family: 'Lato', sans-serif;
         font-weight: bold;
@@ -69,7 +69,7 @@
     }
     
     .track-desc {
-        color: #ffe864;
+        color: #ffd98c;
         margin-top: 12px;
         font-family: 'Lato', sans-serif;
     }

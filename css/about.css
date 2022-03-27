@@ -21,23 +21,23 @@ canvas {
 
 #about_section {
     font-family: 'Lato', sans-serif;
-    color: #ffe864;
+    color: #0c59a1;
 }
 
 .about_us_heading {
     /* color: #DDDBFE; */
-    color: #ffe864;
+    color: #0c59a1;
     font-size: 40px;
 }
 
 .about_division {
     height: 2px;
     margin-top: 11px;
-    background: rgb(167, 186, 163);
+    background: #0c59a1;
     border-radius: 50px;
     transform: translateX(20px);
 }
 
 .about_content {
-    color: #ffe864;
+    color: #000000;
 }

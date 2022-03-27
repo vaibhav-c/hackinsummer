@@ -12,14 +12,14 @@ html {
 }
 
 body {
-  background-color: #fff9b6;
+  background-color: #fcdea1;
   overflow-x: none;
 }
 
 /******** Section Heading */
 
 .section_heading {
-  color: #a2d2ff;
+  color: #0c59a1;
   text-align: center;
   margin-bottom: 40px !important;
   letter-spacing: 1px;
@@ -45,17 +45,17 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #ffffff;
+  background: rgb(255, 255, 255);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #fff9b6;
+  background: #0c59a1;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #fff9b6;
+  background: #127de0;
 }
 .ergodetails {
   /* background-color: black; */

@@ -13,16 +13,16 @@
 }
 
 .scrollbar_link {
-    border-left: 1.5px solid rgb(119, 153, 119);
+    border-left: 1.5px solid #000;
     border-radius: 6px;
     padding: 14px 10px;
     text-decoration: none;
-    color: rgba(255,255,255,1);
+    color: #000;
 }
 
 .scrollbar_link:hover {
     text-decoration: none;
-    color: rgba(255,255,255,1);
+    color: #000;
 }
 
 .scrollbar_link span:nth-child(2) {

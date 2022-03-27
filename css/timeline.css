@@ -34,21 +34,21 @@
 }
 
 .timeline ul li .right_content h2 {
-  color: rgba(65, 239, 59, 1);
+  color: #0c59a1;
   padding: 0px 2px 18px 0px;
 }
 .timeline ul li:nth-child(odd) {
   float: left;
   text-align: right;
   clear: both;
-  color: #ffe864;
+  color: #0c59a1;
 }
 
 .timeline ul li:nth-child(even) {
   float: right;
   text-align: left;
   clear: both;
-  color: #ffe864;
+  color: #0c59a1;
 }
 
 .left_content {
@@ -60,7 +60,7 @@
   position: absolute;
   width: 10px;
   height: 10px;
-  background: rgba(65, 239, 59, 1);
+  background: #0c59a1;
   border-radius: 50%;
   box-shadow: 0 0 0 3px rgba(64, 239, 58, 0.2);
   right: -6px;
@@ -73,11 +73,12 @@
   position: absolute;
   width: 10px;
   height: 10px;
-  background: rgb(65, 239, 59);
+  background: #0c59a1;
   border-radius: 50%;
   box-shadow: 0 0 0 3px rgba(64, 239, 58, 0.2);
   left: -6px;
   top: 24px;
+  z-index: 1;
 }
 
 .timeline ul li:nth-child(odd) .left_content {
@@ -87,7 +88,7 @@
   margin: 0;
   padding: 8px 16px;
 
-  color: #fff;
+  color: #000;
   box-shadow: 0 0 0 3px #9a1b1b;
   border-radius: 18px;
 }
@@ -99,7 +100,7 @@
   margin: 0;
   padding: 8px 16px;
 
-  color: #fff;
+  color: #000;
   box-shadow: 0 0 0 3px #9a1b1b;
   border-radius: 18px;
 }
