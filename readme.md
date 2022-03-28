@@ -1,4 +1,4 @@
-1. For pushing code, make a new branch in the repo using 
+1. For pushing code, make a new branch from main in the repo using 
 git checkout -b branch_name
 2. Then make changes in your code
 3. Push the code in your branch by
