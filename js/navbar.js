@@ -40,6 +40,10 @@ else{
     body.classList.add('day')
     var glitch = document.querySelector('.glitch');
     glitch.classList.add('glitch_day')
+    var tagline = document.querySelector('.tagline');
+    tagline.classList.add('tagline_day')
+    var timer = document.querySelector('#timer_field');
+    timer.classList.add('timer_day')
 }
 
 
