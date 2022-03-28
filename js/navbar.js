@@ -8,6 +8,8 @@ if(!(hour >= 6 && hour <=18))
     body.classList.add('addon')
     var bird = document.querySelector('.bird');
     bird.classList.add('birdhide')
+    var cloud = document.querySelector('.cloud');
+    cloud.classList.add('cloud_night');
     /*! JS Bat 2013 - v1.2 - Eric Grange - www.delphitools.info */
 ;(function () {
     var r=Math.random,n=0,d=document,w=window,

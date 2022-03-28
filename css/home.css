@@ -508,11 +508,17 @@ pointer-events: none;
   opacity: 0.6
 }
 
+.cloud_night {
+  border-radius: 35px;
+  background: #918584 !important;
+  opacity: 0.2;
+}
+
 .cloud,
 .cloud:before,
 .cloud:after {
   border-radius: 35px;
-  background: rgb(145, 133, 132);
+  background: #ffffff;
 }
 
 .cloud {
