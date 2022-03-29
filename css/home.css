@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
 #app {
-
   height: 100vh;
   width: 100%;
   margin: 0;
@@ -11,10 +10,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transform: translateY(-80px);
+  transform: translateY(-180px);
   font-family: "Montserrat", sans-serif;
   z-index: 200;
+  /*animation-name: hackathon_name;*/
 }
+
+/*@keyframes hackathon_name {
+  0% {
+    transform: translateY(-100px) !important;
+  }
+  100% {
+    transform: translateY(100px) !important;
+  }
+}*/
 
 #wrapper {
   text-align: center;

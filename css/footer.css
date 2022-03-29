@@ -15,7 +15,7 @@
 }
 
 .footer-distributed {
-    background: #fcdea1;
+    background: rgb(255, 246, 246);
     /*background: -webkit-linear-gradient(bottom, #278b34, #297922);
     background: -moz-linear-gradient(bottom, #278b34, #297922);
     background: linear-gradient(to top, #278b34, #297922);*/
@@ -28,7 +28,7 @@
 }
 
 .footer-distributed .footer-left span {
-    color: #000000;
+    color: #0c59a1;
     font-size: 14px;
     margin: 0;
 }
@@ -80,7 +80,7 @@
 .footer-distributed span.footer-links {
     font-size: 18px;
     font-weight: bold;
-    color: #000000;
+    color: #0c59a1;
     margin: 0 0 10px;
     padding: 0;
     transition: ease .25s;
@@ -98,7 +98,7 @@
     content: "·";
     font-size: 20px;
     left: 0;
-    color: #000000;
+    color: #0c59a1;
     display: inline-block;
     padding-right: 5px;
 }
@@ -120,10 +120,10 @@
 .footer-distributed .footer-right a {
     display: inline-block;
     width: 35px;
-    background-color: #fcdea1;
+    background-color: rgb(255, 246, 246);
     border-radius: 2px;
     font-size: 20px;
-    color: #000000;
+    color: #0c59a1;
     text-align: center;
     line-height: 35px;
     margin-left: 3px;

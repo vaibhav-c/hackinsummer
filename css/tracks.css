@@ -1,5 +1,5 @@
 .track-card {
-    background-color:  #fcdea1;
+    background-color: rgb(255, 246, 246);
     padding: 16px;
     border-color: #000000;
     width: 300px !important;
@@ -11,7 +11,7 @@
 }
 
 .track-card:hover {
-    background-color:  #ffe4ad;
+    background-color:  rgb(255, 255, 255);
     box-shadow: 1px 1px 8px 1px #000000;
 }
 
