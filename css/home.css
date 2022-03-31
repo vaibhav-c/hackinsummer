@@ -88,17 +88,20 @@ text set in the data-text attribute. */
 
 /*Register button*/
 #register {
-  background-color:  rgb(255, 246, 246);
+  background-color: #0c59a1;
   text-align: center; 
   padding: 10px;
   border-radius: 10px;
   font-size: 1rem;
-  color: #000;
+  text-shadow: none;
+  color: rgb(255, 246, 246);
 }
 
 #register:hover {
-  background-color: #fff;
-  box-shadow:  1px 1px 8px 1px #000000;
+  background-color: rgb(255, 246, 246);
+  color: #0c59a1;
+  text-shadow: none;
+  /*box-shadow:  1px 1px 8px 1px #000;*/
 }
 
 /* Deadline Timer */

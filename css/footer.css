@@ -36,7 +36,7 @@
 .footer-center {
     position: relative;
     text-align: center;
-    top: 35px;
+    /*top: 35px;*/
 }
 
 .footer-logo-jiit {
@@ -111,6 +111,7 @@
     float: right;
     height: 35px;
     max-width: 220px;
+    z-index: 10000 !important;
 }
 
 .footer-distributed .footer-left {
