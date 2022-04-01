@@ -13,7 +13,7 @@
 
     <!-- || title tag -->
     <title>Hackin' Summer</title>
-    <link rel="icon" type="image/icon" href="./assets/jiit_logo.png" />
+    <link rel="icon" type="image/icon" href="./assets/about.svg" />
 
     <!-- || Inbuilt CSS CDNs -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -55,7 +55,7 @@
     <div id="mobile_humberger_menu">
         <!-- Menu Close Button -->
         <div class="mt-3">
-            <a href="./index.html" class="humberger_logo"><img src="./assets/dsc_logo.png" alt="dsc_logo" /></a>
+            <a href="./index.html" class="humberger_logo"><img src="./assets/about.svg" alt="hackin_summer_logo" /></a>
 
             <a href="#navbar_with_home" class="close_humberger_menu_btn mr-4" onclick="switchToSection()">
                 <i class="fa fa-times" aria-hidden="true"></i>
@@ -92,9 +92,9 @@
                 <a href="#faq_section" class="humberger_link" onclick="switchToSection()">F.A.Q</a>
             </div>
 
-            <div class="mt-4">
+            <!--<div class="mt-4">
                 <a href="#sponsors_section" class="humberger_link" onclick="switchToSection()">Sponsors</a>
-            </div>
+            </div>-->
 
             <div class="mt-4">
                 <a href="#judges_section" class="humberger_link" onclick="switchToSection()">Judges</a>
@@ -205,11 +205,11 @@
                                 <span id="seconds">00</span>
                             </h1>
                         </div>
-                        <div class="row pb-5" data-aos="fade-up">
+                        <!--<div class="row pb-5" data-aos="fade-up">
                             <button class="tagline" onclick = "openD2C()" id="register" style = "z-index: 100000;">
                                 CLICK HERE TO REGISTER
                             </button>
-                        </div>
+                        </div>-->
                     </div>
                     <!-- <img class="img1" src="1.png" alt="1"> -->
                     <img class="img2" loading=lazy loading=lazy src="assets/2.png" alt="2">
@@ -251,13 +251,28 @@
                 </div>
             </section>
         </main>
-        <script>
+        <!--<script>
             function openD2C() {
                 window.open('https://dare2compete.com/hackathon/hackin-summer-jaypee-institute-of-information-technology-jiit-noida-278885', '_blank');
             }
-        </script>
+        </script>-->
         <br>
         <!-- || Navbar & Home Deadline Section [END] -->
+        <section id="section">
+            <h3 class="section_heading glitch-font" data-text="REGISTER ON" data-aos="fade-up">
+                <span class="glitch-font-h3">REGISTER ON</span>
+            </h3>
+            <div class="container pt-5 pb-lg-0 pb-5">
+                <div class="sponsors_link mb-md-0 mb-3" data-aos="fade-up">
+                    <a href="https://dare2compete.com/hackathon/hackin-summer-jaypee-institute-of-information-technology-jiit-noida-278885" target="_blank">
+                        <img loading=lazy src="./assets/d2c.png" alt="D2C" />
+                    </a>
+                </div>
+            </div>
+        </section>
+        <br>
+        <br>
+
         <section id="section">
             <h3 class="section_heading glitch-font" data-text="JOIN US ON" data-aos="fade-up">
                 <span class="glitch-font-h3">JOIN US ON</span>
@@ -270,6 +285,7 @@
                 </div>
             </div>
         </section>
+
         <!-- || About Section [START] -->
         <section id="about_section">
             <div class="container pt-5 pb-lg-0 pb-5">
@@ -916,7 +932,7 @@
         </section>
         <!-- || FAQs Section [END] -->
 
-        <section class="sponsors_section pt-lg-5" id="sponsors_section">
+        <section class="sponsors_section pt-lg-5" id="sponsors_section" style = "display: none;">
             <!-- Heading -->
             <h3 class="section_heading glitch-font mt-5" data-text="PLATFORM PARTNERS" data-aos="fade-up">
                 <span class="glitch-font-h3">PLATFORM PARTNERS</span>
@@ -933,7 +949,6 @@
                                     <img loading=lazy src="./assets/d2c.png" alt="D2C" />
                                 </a>
                             </div>
-                            
                         </div>
                         
                         <!-- Row Divider -->
