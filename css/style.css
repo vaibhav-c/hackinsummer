@@ -74,3 +74,10 @@ body {
 .item {
   text-align: center;
 }
+
+@media screen and (max-width: 576px) {
+  .section_heading span {
+    padding: 0px;
+    border-bottom: 3.5px solid #9a1b1b;
+  }
+}
