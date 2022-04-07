@@ -3,7 +3,7 @@
     padding: 16px;
     border-color: #000000;
     width: 300px !important;
-    height: 400px !important;
+    height: 500px !important;
     text-align: center;
     border-radius: 12px;
     margin-right: 24px;
@@ -42,7 +42,7 @@
     .track-card {
         border-color: #000000;
         width: 240px !important;
-        height: 500px !important;
+        height: 700px !important;
         text-align: center;
         border-radius: 12px;
         margin-top: 24px;
