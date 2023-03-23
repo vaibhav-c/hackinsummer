@@ -5,15 +5,16 @@
     <!-- || meta tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- SEO Tags -->
-    <meta name="title" content="Hackin' Summer 22 - Organized by JIIT, Noida">
-    <meta name="description" content="Hackin' Summer 22 is a hackathon organized by JIIT, Noida. Students from all over the country can participate in the hackathon and try to win some amazing prizes worth Rs. 70,000.">
+    <meta name="title" content="Hackin' Summer 23 - Organized by JIIT, Noida">
+    <meta name="description"
+        content="Hackin' Summer 23 is a hackathon organized by JIIT, Noida. Students from all over the country can participate in the hackathon and try to win some amazing prizes worth Rs. 70,000.">
     <meta name="keywords" content="Hackathon, JIIT, Hackin' Summer, Devfolio">
     <meta name="robots" content="index, follow">
 
     <!-- || title tag -->
-    <title>Hackin' Summer 22 - Hackathon organised by JIIT, Noida</title>
+    <title>Hackin' Summer 23 - Hackathon organised by JIIT, Noida</title>
     <link rel="icon" type="image/icon" href="./assets/about.svg" />
 
     <!-- || Inbuilt CSS CDNs -->
@@ -22,7 +23,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    
+
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -39,8 +40,8 @@
     <link rel="stylesheet" href="./css/footer.css" />
     <link rel="stylesheet" href="./css/timeline.css" />
     <link rel="stylesheet" href="./css/sponsors.css" />
-    <link rel="stylesheet" href="./css/tracks.css"/>
-    <link rel="stylesheet" href="./css/speakers.css"/>
+    <link rel="stylesheet" href="./css/tracks.css" />
+    <link rel="stylesheet" href="./css/speakers.css" />
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -74,6 +75,10 @@
             </div>
 
             <div class="mt-4">
+                <a href="#sponsors" class="humberger_link" onclick="switchToSection()">Sponsors</a>
+            </div>
+
+            <div class="mt-4">
                 <a href="#tracks" class="humberger_link" onclick="switchToSection()">Tracks</a>
             </div>
 
@@ -93,11 +98,7 @@
                 <a href="#faq_section" class="humberger_link" onclick="switchToSection()">F.A.Q</a>
             </div>
 
-            <!--<div class="mt-4">
-                <a href="#sponsors_section" class="humberger_link" onclick="switchToSection()">Sponsors</a>
-            </div>-->
-
-            <div class="mt-4">
+            <!-- <div class="mt-4">
                 <a href="#judges_section" class="humberger_link" onclick="switchToSection()">Judges</a>
             </div>
 
@@ -107,7 +108,7 @@
 
             <div class="mt-4">
                 <a href="#team_section" class="humberger_link" onclick="switchToSection()">Team</a>
-            </div>
+            </div> -->
         </div>
 
         <!-- Social Media Links -->
@@ -115,8 +116,9 @@
             <!--<a href="" target="_blank"><i class="fa fa-facebook"></i></a>
             <a href="" target="_blank"><i class="fa fa-twitter"></i></a>
             <a href="" target="_blank"><i class="fa fa-linkedin"></i></a>-->
-            <a href="https://www.instagram.com/hackin_summer/" target="_blank"><i class="fa fa-instagram"></i></a>
-            <a href="https://www.youtube.com/channel/UCMqzTZkzwdDOuTzYbSZY8jw" target="_blank"><i class="fa fa-youtube"></i></a>
+            <a href="https://www.instagram.com/gdscjiit/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UCMqzTZkzwdDOuTzYbSZY8jw" target="_blank"><i
+                    class="fa fa-youtube"></i></a>
             <!-- <a href="" target="_blank"><i
                     class="fa fa-youtube"></i></a> -->
         </div>
@@ -147,6 +149,9 @@
                                         class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item px-2">
+                                <a class="nav-link" href="#sponsors">Sponsors</a>
+                            </li>
+                            <li class="nav-item px-2">
                                 <a class="nav-link" href="#tracks">Tracks</a>
                             </li>
                             <li class="nav-item px-2">
@@ -161,10 +166,7 @@
                             <li class="nav-item px-2">
                                 <a class="nav-link" href="#faq_section">FAQs</a>
                             </li>
-                            <!--<li class="nav-item px-2">
-                                <a class="nav-link" href="#sponsors_section">Sponsors</a>
-                            </li>-->
-                            <li class="nav-item px-2">
+                            <!-- <li class="nav-item px-2">
                                 <a class="nav-link" href="#speakers_section">Speakers</a>
                             </li>
                             <li class="nav-item px-2">
@@ -172,6 +174,10 @@
                             </li>
                             <li class="nav-item px-2">
                                 <a class="nav-link" href="#team_section">Team</a>
+                            </li> -->
+                            <li class="nav-item px-2">
+                                <div class="apply-button" data-hackathon-slug="Hackin' Summers"
+                                    data-button-theme="light" ></div>
                             </li>
                         </ul>
                     </div>
@@ -244,49 +250,16 @@
                     <div id="wrapper">
                         <img src="./assets/jiit_logo_black.png" height="100px" width="100px">
                         <br>
-                        <h5 class="glitch" style = "font-size: large; color: #000;">presents</h5>
-                        <h1 class="glitch" data-aos="fade-down">Hackin' Summer '22</h1>
+                        <h5 class="glitch" style="font-size: large; color: #000;">presents</h5>
+                        <h1 class="glitch" data-aos="fade-down">Hackin' Summer '23</h1>
                         <br>
-                        <h5 class="glitch" style = "font-size: large;">8th-9th-10th April</h5>
+                        <h5 class="glitch" style="font-size: large;">15th-16th April</h5>
                         <h1 class="glitch"></h1>
                     </div>
                 </div>
             </section>
         </main>
-        <script>
-            function openD2C() {
-                window.open('https://dare2compete.com/p/hackin-summer-jaypee-institute-of-information-technology-jiit-noida-278885', '_blank');
-            }
-        </script>
         <br>
-        <!-- || Navbar & Home Deadline Section [END] -->
-        <section id="section">
-            <h3 class="section_heading glitch-font" data-text="REGISTER AT" data-aos="fade-up">
-                <span class="glitch-font-h3">REGISTER AT OUR PLATFORM PARTNERS</span>
-            </h3>
-            <div class="container pt-5 pb-lg-0 pb-5">
-                <div class="sponsors_link mb-md-0 mb-3" data-aos="fade-up">
-                    <a href="https://dare2compete.com/p/hackin-summer-jaypee-institute-of-information-technology-jiit-noida-278885" target="_blank">
-                        <img loading=lazy src="./assets/d2c.png" alt="Discord" />
-                    </a>
-                </div>
-            </div>
-        </section>
-        <br>
-        <br>
-        <br>
-        <section id="section">
-            <h3 class="section_heading glitch-font" data-text="JOIN US ON" data-aos="fade-up">
-                <span class="glitch-font-h3">JOIN US ON</span>
-            </h3>
-            <div class="container pt-5 pb-lg-0 pb-5">
-                <div class="sponsors_link mb-md-0 mb-3" data-aos="fade-up">
-                    <a href="https://discord.gg/jr3hFEztUt" target="_blank">
-                        <img loading=lazy src="./assets/discord.png" alt="Discord" />
-                    </a>
-                </div>
-            </div>
-        </section>
         <!-- || About Section [START] -->
         <section id="about_section">
             <div class="container pt-5 pb-lg-0 pb-5">
@@ -310,14 +283,16 @@
                             <div class="col-2 about_division"></div>
                             <div class="col-10">
                                 <p class="about_content pl-3">
-                                    Hackin' Summer is one of the biggest and most awaited student-held Hackathon of Delhi
-                                    NCR organized by JIIT Noida this year, where you can convert your crazy ideas to a reality.
+                                    Hackin' Summer is one of the biggest and most awaited student-held Hackathon of
+                                    Delhi
+                                    NCR organized by JIIT Noida this year, where you can convert your crazy ideas to a
+                                    reality.
                                     This hackathon will be a great platform for all pro-players in the field and at the
                                     same time a kickstart for new hackers willing to join the league and find their
                                     footing in the arena of innovation and technologies.
 
                                 </p>
-                                <h5 class="py-2 pl-3" style = 'color: #0c59a1'>"What does Summer Signify?"</h5>
+                                <h5 class="py-2 pl-3" style='color: #0c59a1'>"What does Summer Signify?"</h5>
                                 <p class="about_content pl-3">
                                     This Summer season will be full of exciting and engaging events powered with
                                     overwhelming prizes to give you a good sense of achievement. It will definitely be
@@ -332,7 +307,43 @@
         </section>
         <!-- || About Section [END] -->
 
-
+        <section id="sponsors">
+            <h3 class="section_heading glitch-font" data-text="REGISTER AT" data-aos="fade-up">
+                <span class="text-warning glitch-font-h3">Gold Sponsors</span>
+            </h3>
+            <div class="container pt-5 pb-lg-0 pb-5">
+                <div class="sponsors_link mb-md-0 mb-3" data-aos="fade-up">
+                    <!-- <a href="#" target="_blank"> -->
+                    <img loading=lazy src="./sponsors/devfolio-1649779-1399882.webp" alt="Discord" />
+                    <img loading=lazy src="./sponsors/polygon.png" alt="Discord" />
+                    <!-- </a> -->
+                </div>
+            </div>
+            <div class="container pt-5 pb-lg-0 pb-5">
+                <div class="sponsors_link mb-md-0 mb-3" data-aos="fade-up">
+                    <img loading=lazy src="./sponsors/filecoin.png" alt="Discord" />
+                    <img loading=lazy src="./sponsors/solana.png" alt="Discord" />
+                    <img loading=lazy src="./sponsors/replit.png" alt="Discord" />
+                </div>
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <section id="section">
+            <h3 class="section_heading glitch-font" data-text="JOIN US ON" data-aos="fade-up">
+                <span class="glitch-font-h3">JOIN US ON</span>
+            </h3>
+            <div class="container pt-3 pb-lg-0 pb-5">
+                <div class="sponsors_link mb-md-0 mb-3" data-aos="fade-up">
+                    <a href="https://discord.gg/jr3hFEztUt" target="_blank">
+                        <img loading=lazy src="./assets/discord.png" alt="Discord" />
+                    </a>
+                </div>
+            </div>
+        </section>
+        <br>
+        <br>
         <!-- || Tracks Section [START] -->
         <section class="previous_year_event" id="tracks">
             <div class="tracks-section container pt-4 pb-5">
@@ -341,27 +352,36 @@
                     <span class="glitch-font-h3">TRACKS</span>
                 </h3>
                 <span class="card track-desc" style="background-color: transparent; border: none;">
-                    The hackathon event of Hackin' Summer '22 consists of 6 tracks out of which 5 are based on technologies, namely, AR/VR, Blockchain, Cybersecurity, ML/AI and IoT. The last track is Open Innovation. 
+                    The hackathon event of Hackin' Summer '23 consists of 6 tracks out of which 5 are based on
+                    technologies, namely, AR/VR, Blockchain, Cybersecurity, ML/AI and IoT. The last track is Open
+                    Innovation.
                     <br>
-                    Each of the five tracks will consist of two types problem statements. In the Open Innovation track there will be only one problem statement, which is all the problem statements of Smart India Hackathon 2022 (SIH '22) which do not make use of the technologies of above mentioned 5 tracks.  
-                    <br> 
-                    <b style="color: #0c59a1">Problem Statement 1:</b> Problem statements in Smart India Hackathon '22 which make use of technology of the track. This statement is only open for JIIT students.
+                    Each of the five tracks will consist of two types problem statements. In the Open Innovation track
+                    there will be only one problem statement, which is all the problem statements of Smart India
+                    Hackathon 2023 (SIH '23) which do not make use of the technologies of above mentioned 5 tracks.
                     <br>
-                    <b style="color: #0c59a1">Problem Statement 2:</b> Released on 8th April 2022. This statement is open for both JIIT students and external participants.
+                    <b style="color: #0c59a1">Problem Statement 1:</b> Problem statements in Smart India Hackathon '23
+                    which make use of technology of the track. This statement is only open for JIIT students.
+                    <br>
+                    <b style="color: #0c59a1">Problem Statement 2:</b> Released on 16th April 2023. This statement is
+                    open for both JIIT students and external participants.
                     <br>
                     <br>
-                    <b>For JIIT students this hackathon will serve as an internal qualification round for the prestigious Smart India Hackathon 2022. The top JIIT teams here will represent JIIT at the Smart India Hackathon 2022 at the national level after further evaluations.</b>
+                    <b>For JIIT students this hackathon will serve as an internal qualification round for the
+                        prestigious Smart India Hackathon 2023. The top JIIT teams here will represent JIIT at the Smart
+                        India Hackathon 2023 at the national level after further evaluations.</b>
                     <br>
-                    
+
                     <span style="color: #0c59a1">
                         <b>For participation in Problem Statement 1 of each track:</b>
                     </span>
                     <br>
-                    <b>Team of 6, which must include all JIIT students (JIIT 62 and 128 students can form a team) is required which must include:
-                    <br>
-                    1. A Team Leader (May be a boy or a girl)<br>
-                    2. A girl student (Required, if a girl is not a team leader)<br>
-                    3. Four Students (Each student can be a boy or a girl)<br>
+                    <b>Team of 6, which must include all JIIT students (JIIT 62 and 128 students can form a team) is
+                        required which must include:
+                        <br>
+                        1. A Team Leader (May be a boy or a girl)<br>
+                        2. A girl student (Required, if a girl is not a team leader)<br>
+                        3. Four Students (Each student can be a boy or a girl)<br>
                     </b>
                     <br>
                     <span style="color: #0c59a1">
@@ -378,9 +398,11 @@
                             <div class="card-body">
                                 <img class="track-image" alt="ar-vr" src="./assets/ar-vr.png">
                                 <h5 class="card-title track-title">AR/VR</h5>
-                                <p class="card-text track-desc">Statement 1 <br>Includes all Smart India Hackathon 2022 problem statements which make use of AR/VR</p>
-                                <p class="card-text track-desc">Statement 2 <br>Augmented and Virtual Reality in Education and Skilling.</p>
-                                
+                                <p class="card-text track-desc">Statement 1 <br>Includes all Smart India Hackathon 2023
+                                    problem statements which make use of AR/VR</p>
+                                <p class="card-text track-desc">Statement 2 <br>Augmented and Virtual Reality in
+                                    Education and Skilling.</p>
+
                             </div>
                         </div>
                     </div>
@@ -390,9 +412,11 @@
                             <div class="card-body">
                                 <img class="track-image" alt="blockchain" src="./assets/blockchain.png">
                                 <h5 class="card-title track-title">Blockchain</h5>
-                                <p class="card-text track-desc">Statement 1 <br>Includes all Smart India Hackathon 2022 problem statements which involve of Blockchain</p>
-                                <p class="card-text track-desc">Statement 2 <br>Build an anonymous reporting system using blockchain.</p>
-                                
+                                <p class="card-text track-desc">Statement 1 <br>Includes all Smart India Hackathon 2023
+                                    problem statements which involve of Blockchain</p>
+                                <p class="card-text track-desc">Statement 2 <br>Build an anonymous reporting system
+                                    using blockchain.</p>
+
                             </div>
                         </div>
                     </div>
@@ -402,21 +426,27 @@
                             <div class="card-body">
                                 <img class="track-image" alt="cybersecurity" src="./assets/cyber-security.png">
                                 <h5 class="card-title track-title">Cybersecurity</h5>
-                                <p class="card-text track-desc">Statement 1 <br>Includes all Smart India Hackathon 2022 problem statements which involve Cybersecurity</p>
-                                <p class="card-text track-desc">Statement 2 <br>Build a solution directed towards dissecting the darknet which may include but is not limited to exposing IP details of darknet sites, and users.</p>
+                                <p class="card-text track-desc">Statement 1 <br>Includes all Smart India Hackathon 2023
+                                    problem statements which involve Cybersecurity</p>
+                                <p class="card-text track-desc">Statement 2 <br>Build a solution directed towards
+                                    dissecting the darknet which may include but is not limited to exposing IP details
+                                    of darknet sites, and users.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                
+
                 <div data-aos="fade-up" class="container tracks-row row">
                     <div class="container col col-lg-4 col-md-6 col-sm-12">
                         <div class="card track-card">
                             <div class="card-body">
                                 <img class="track-image" alt="ml-ai" src="./assets/machine-learning.png">
                                 <h5 class="card-title track-title">ML/AI</h5>
-                                <p class="card-text track-desc">Statement 1 <br>Includes all Smart India Hackathon 2022 problem statements which involve ML/AI</p>
-                                <p class="card-text track-desc">Statement 2 <br>Build a solution using machine learning and artificial intelligence for enhancing the quality of life for differently-abled people.</p>
+                                <p class="card-text track-desc">Statement 1 <br>Includes all Smart India Hackathon 2023
+                                    problem statements which involve ML/AI</p>
+                                <p class="card-text track-desc">Statement 2 <br>Build a solution using machine learning
+                                    and artificial intelligence for enhancing the quality of life for differently-abled
+                                    people.</p>
                             </div>
                         </div>
                     </div>
@@ -426,9 +456,11 @@
                             <div class="card-body">
                                 <img class="track-image" alt="iot" src="./assets/iot.png">
                                 <h5 class="card-title track-title">IOT</h5>
-                                <p class="card-text track-desc">Statement 1 <br>Includes all Smart India Hackathon 2022 problem statements which involve IOT</p>
-                                <p class="card-text track-desc">Statement 2 <br>Build a smart city prototype that can accommodate the general public with futuristic features you can think of.</p>
-                               
+                                <p class="card-text track-desc">Statement 1 <br>Includes all Smart India Hackathon 2023
+                                    problem statements which involve IOT</p>
+                                <p class="card-text track-desc">Statement 2 <br>Build a smart city prototype that can
+                                    accommodate the general public with futuristic features you can think of.</p>
+
                             </div>
                         </div>
                     </div>
@@ -438,74 +470,25 @@
                             <div class="card-body">
                                 <img class="track-image" alt="Open Innovation" src="./assets/open-innovation.png">
                                 <h5 class="card-title track-title">Open Innovation</h5>
-                                <p class="card-text track-desc"><p class="card-text track-desc">Statement 1 <br>All Smart India Hackathon 2022 problem statements which do not involve the above mentioned technologies are welcome in this track</p></p>
+                                <p class="card-text track-desc">
+                                    <p class="card-text track-desc">Statement 1 <br>All Smart India Hackathon 2023
+                                        problem
+                                        statements which do not involve the above mentioned technologies are welcome in
+                                        this
+                                        track</p>
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <br>
-                <h3 class="section_heading glitch-font" data-text="For SIH '22' Problem statements click here" data-aos="fade-up">
-                    <a href = "./SIH PS 2022.pdf" target = "_blank">For SIH '22 Problem statements click here</a>
+                <h3 class="section_heading glitch-font" data-text="For SIH '22' Problem statements click here"
+                    data-aos="fade-up">
+                    <a href="./SIH PS 2023.pdf" target="_blank">For SIH '23 Problem statements click here</a>
                 </h3>
             </div>
         </section>
         <!-- || Tracks Section [END] -->
-
-        <section class="side_event" id="side_events">
-            <div class="container pt-4 pb-5">
-                <!-- Section Heading -->
-                <h3 class="section_heading glitch-font" data-text="SIDE EVENTS" data-aos="fade-up">
-                    <span class="glitch-font-h3">SIDE EVENTS</span>
-                </h3>
-
-                <!-- Side Event -->
-                <div class="row" id="ergoCTF">
-                    <div class="col-lg-3 offset-lg-1 col-md-6 col-12" data-aos="fade-up">
-                        <img loading=lazy src="./assets/side_events.png" alt="side events" class="svg_logo d-block mx-auto"
-                            id="ergoCTFsvg" />
-                    </div>
-                    <div class="col-lg-5 offset-lg-1 col-md-6 col-12 pt-lg-5" data-aos="fade-down">
-                        <!-- Gold Trophy -->
-                        <div class="row mt-4">
-                            <div class="col-8 winners_details_box">
-                                <div class="ergo_details">
-                                    <h4 style="color:#0c59a1" id="ergotitle" class="pr-4"><span></span><b>Expert Talks</b>
-                                    </h4>
-                                    <h6 style="color:#000">
-                                        
-                                    </h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row mt-4">
-                            <div class="col-8 winners_details_box">
-                                <div class="ergo_details">
-                                    <h4 style="color:#0c59a1" id="ergotitle" class="pr-4"><span></span><b>Meme Challenge</b>
-                                    </h4>
-                                    <h6 style="color:#000">
-                                        
-                                    </h6>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Gold Trophy -->
-                        <div class="row mt-4">
-                            <div class="col-8 winners_details_box">
-                                <div class="ergo_details">
-                                    <h4 style="color: #0c59a1" id="ergotitle" class="pr-4"><span></span><b>Quiz</b>
-                                    </h4>
-                                    <h6 style="color:#000">
-                                        
-                                    </h6>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-
 
         <section class="schedules" id="schedules">
             <div class="container pt-4 pb-5">
@@ -521,23 +504,23 @@
                                 <p>12:00 AM Onwards</p>
                             </div>
                             <div class="left_content" data-aos="fade-left">
-                                1st April 2022
+                                26th March 2023
                             </div>
                         </li>
                         <li>
                             <div class="right_content">
-                                <h5 data-aos="fade-down">Intro Session<br>(Offline)</h5>
+                                <h5 data-aos="fade-down">Intro Session</h5>
                                 <p>05:00 PM Onwards</p>
                             </div>
                             <div class="right_content">
-                                <h5 data-aos="fade-down">Registrations End<br>(for Problem Statement 1)</h5>
+                                <h5 data-aos="fade-down">Registrations End</h5>
                                 <p>11:59 PM</p>
                             </div>
                             <div class="left_content" data-aos="fade-left">
-                                7th April 2022
+                                14th April 2023
                             </div>
                         </li>
-                        <li>
+                        <!-- <li>
                             <div class="right_content">
                                 <h5 data-aos="fade-down">Problem Statements Released</h5>
                                 <p>12:00 AM</p>
@@ -551,10 +534,10 @@
                                 <p>07:00 PM</p>
                             </div>
                             <div class="left_content" data-aos="fade-right">
-                                8th April 2022
+                                8th April 2023
                             </div>
-                        </li>
-                        <li>
+                        </li> -->
+                        <!-- <li>
                             <div class="right_content">
                                 <h5 data-aos="fade-down">Registrations End<br>(for Problem Statement 2)</h5>
                                 <p>10:00 AM</p>
@@ -572,21 +555,21 @@
                                 <p>9:00 PM - 11:59 PM</p>
                             </div>
                             <div class="left_content" data-aos="fade-left">
-                                9th April 2022
+                                9th April 2023
                             </div>
-                        </li>
+                        </li> -->
                         <li>
                             <div class="right_content">
                                 <h5 data-aos="fade-down">Submissions End</h5>
                                 <p> 12:00 PM</p>
                             </div>
                             <div class="right_content">
-                                <h5 data-aos="fade-down">Tech Talk III</h5>
+                                <!-- <h5 data-aos="fade-down">Tech Talk III</h5> -->
                                 <h5 data-aos="fade-down">Declaration of Results</h5>
-                                <p>7:00 PM Onwards</p>
+                                <p>Will be declared soon!</p>
                             </div>
                             <div class="left_content" data-aos="fade-right">
-                                10th April 2022
+                                16th April 2023
                             </div>
                         </li>
 
@@ -607,8 +590,9 @@
             </div>
             <div class="wrapper-1">
                 <div class="card-1">
-                    <div id = "front">
-                        <h1 style = "font-size: 2rem; color: #0c59a1;" class="glitch" data-aos="fade-down">CASH PRIZE POOL OF<br>&#8377;70,000<br>GOODIES<br>CERTFICATES FOR ALL*</h1>
+                    <div id="front">
+                        <h1 style="font-size: 2rem; color: #0c59a1;" class="glitch" data-aos="fade-down">CASH PRIZE POOL
+                            OF<br>&#8377;40,000<br>GOODIES<br>CERTFICATES FOR ALL*</h1>
                         <h1 class="glitch"></h1>
                         <br>
                         <span class="emoji round" id="emoji1" data-aos="fade-down">🎁</span>
@@ -620,25 +604,32 @@
                     </div>
                     <div class="descriptions">
                         <br>
-                        <div id="wrapper">
-                            <h1 style = "font-size: 2rem; color: #0c59a1;" class="glitch" data-aos="fade-down">INDIVIDUAL PRIZES</h1>
-                        </div>
-                        <div id="wrapper" style="text-align: left;">
-                            <h1 style = "font-size: 2rem; color: #000; display: none;" class="glitch" data-aos="fade-down">TO BE ANNOUNCED</h1>
-                            <div>
-                                <i class="fa fa-star" style="color:#0c59a1" aria-hidden="true"><span>&nbsp;Winner (per track): &#8377;7000</span></i>
+                        <!-- <div id="wrapper">
+                            <h1 style="font-size: 2rem; color: #0c59a1;" class="glitch" data-aos="fade-down">INDIVIDUAL
+                                PRIZES</h1>
+                        </div> -->
+                        <div id="wrapper" style="text-align: center;">
+                            <h1 style="font-size: 2rem; color: #000;" class="glitch" data-aos="fade-down">TO BE
+                                ANNOUNCED</h1>
+                            <!-- <div>
+                                <i class="fa fa-star" style="color:#0c59a1" aria-hidden="true"><span>&nbsp;Winner (per
+                                        track): &#8377;7000</span></i>
                                 <br>
-                                <i class="fa fa-star" style="color:#0c59a1" aria-hidden="true"><span>&nbsp;First-Runners Up (per track): &#8377;4000</span></i>
+                                <i class="fa fa-star" style="color:#0c59a1" aria-hidden="true"><span>&nbsp;First-Runners
+                                        Up (per track): &#8377;4000</span></i>
                                 <br>
-                                <i class="fa fa-star" style="color:#0c59a1" aria-hidden="true"><span>&nbsp;Side Events Total Prize: &#8377;4000</span></i>
+                                <i class="fa fa-star" style="color:#0c59a1" aria-hidden="true"><span>&nbsp;Side Events
+                                        Total Prize: &#8377;4000</span></i>
                                 <br>
-                                <i class="fa fa-star" style="color:#0c59a1" aria-hidden="true"><span>&nbsp;Top JIIT teams will represent JIIT in SIH '22</span></i>
+                                <i class="fa fa-star" style="color:#0c59a1" aria-hidden="true"><span>&nbsp;Top JIIT
+                                        teams will represent JIIT in SIH '23</span></i>
                                 <br>
-                                <i class="fa fa-star" style="color:#0c59a1" aria-hidden="true"><span>&nbsp;Certificates for all who submit the project</span></i>
-                            </div>
+                                <i class="fa fa-star" style="color:#0c59a1" aria-hidden="true"><span>&nbsp;Certificates
+                                        for all who submit the project</span></i>
+                            </div> -->
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </section>
@@ -705,7 +696,8 @@
                                     <div class="row">
                                         <div class="col-sm-1 col-2 faq_division"></div>
                                         <div class="col-sm-11 col-10">
-                                            No, it is absolutely FREE to participate in Hackin' Summer. All you need is an
+                                            No, it is absolutely FREE to participate in Hackin' Summer. All you need is
+                                            an
                                             innovative mind and enthusiasm.
                                         </div>
                                     </div>
@@ -761,7 +753,9 @@
                                     <div class="row">
                                         <div class="col-sm-1 col-2 faq_division"></div>
                                         <div class="col-sm-11 col-10">
-                                            Registrations will be done via Dare2Compete for problem statement 2 and for problem statement 1 you need to register at Dare2Compete as well as on the registration desk offline.
+                                            Registrations will be done via Dare2Compete for problem statement 2 and for
+                                            problem statement 1 you need to register at Dare2Compete as well as on the
+                                            registration desk offline.
                                         </div>
                                     </div>
                                 </div>
@@ -804,18 +798,20 @@
                                     <div class="col-sm-11 col-10">
                                         <a class="faq_link" data-toggle="collapse" data-target="#faqSix"
                                             aria-expanded="true" aria-controls="faqSix">
-                                            What is Smart India Hackathon 2022 (SIH '22)?
+                                            What is Smart India Hackathon 2023 (SIH '23)?
                                         </a>
                                     </div>
                                 </div>
                             </div>
-                            <div id="faqSix" class="collapse" aria-labelledby="faqHeadSix"
-                                data-parent="#faq_question">
+                            <div id="faqSix" class="collapse" aria-labelledby="faqHeadSix" data-parent="#faq_question">
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col-sm-1 col-2 faq_division"></div>
                                         <div class="col-sm-11 col-10">
-                                            Smart India Hackathon 2022 is a nationwide initiative to provide students a platform to solve some of the pressing problems we face in our daily lives, and thus inculcate a culture of product innovation and a mindset of problem solving.
+                                            Smart India Hackathon 2023 is a nationwide initiative to provide students a
+                                            platform to solve some of the pressing problems we face in our daily lives,
+                                            and thus inculcate a culture of product innovation and a mindset of problem
+                                            solving.
                                         </div>
                                     </div>
                                 </div>
@@ -865,13 +861,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <div id="faqTen" class="collapse" aria-labelledby="faqHeadTen"
-                                data-parent="#faq_question">
+                            <div id="faqTen" class="collapse" aria-labelledby="faqHeadTen" data-parent="#faq_question">
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col-sm-1 col-2 faq_division"></div>
                                         <div class="col-sm-11 col-10">
-                                            Hackin' Summer has a total prize pool of &#8377;70000.
+                                            Hackin' Summer has a total prize pool of &#8377;40000.
                                         </div>
                                     </div>
                                 </div>
@@ -959,7 +954,8 @@
                                     <div class="row">
                                         <div class="col-sm-1 col-2 faq_division"></div>
                                         <div class="col-sm-11 col-10">
-                                            Project submissions will be done on Dare2Compete. More details will be provided
+                                            Project submissions will be done on Devfolio. More details will be
+                                            provided
                                             to you once the hackathon starts.
                                         </div>
                                     </div>
@@ -1003,103 +999,122 @@
         <!-- || FAQs Section [END] -->
 
         <!--Speaker Section-->
-
+        <!-- 
         <section class="speakers_section pt-lg-5" id="speakers_section">
             <!-- Heading -->
-            <h3 class="section_heading glitch-font mt-5" data-text="SPEAKERS" data-aos="fade-up">
+        <!-- <h3 class="section_heading glitch-font mt-5" data-text="SPEAKERS" data-aos="fade-up">
                 <span class="glitch-font-h3">SPEAKERS</span>
             </h3>
             <div id="wrapper" style="display: none;">
-                <h1 style = "font-size: 2rem; color: #000" class="glitch" data-aos="fade-down">TO BE ANNOUNCED</h1>
+                <h1 style="font-size: 2rem; color: #000" class="glitch" data-aos="fade-down">TO BE ANNOUNCED</h1>
                 <h1 class="glitch"></h1>
             </div>
             <!-- 800 x 80 images required -->
-            <!--HIDDEN-->
-            <div class="cards_speaker">
+        <!--HIDDEN-->
+        <!-- <div class="cards_speaker">
                 <div class="card_speaker">
                     <img src="./assets/speaker1.jpeg" alt="Sukriti Macker">
                     <p class="card_speaker-desc">
-                        Data Quality Associate in FinBox. Sukriti's work is published at reknowned journals. 
-                        She will be sharing the lessons she learned on her tech jorney on 8th April from 7pm. 
+                        Data Quality Associate in FinBox. Sukriti's work is published at reknowned journals.
+                        She will be sharing the lessons she learned on her tech jorney on 8th April from 7pm.
                     </p>
                     <h2 class="card_speaker-title">Sukriti<br>Macker</h2>
                 </div>
                 <div class="card_speaker">
                     <img src="./assets//speaker2.png" alt="Ayon Roy">
                     <p class="card_speaker-desc">
-                        Executive Data Scientist @ NielsenIQ. Ayon started India's 1st & Largest Kaggle Days Meetup Community. 
-                        He will share his ideas on 9th April from 7:00 PM on "Can Artificial Intelligence replace Software Engineering?"
+                        Executive Data Scientist @ NielsenIQ. Ayon started India's 1st & Largest Kaggle Days Meetup
+                        Community.
+                        He will share his ideas on 9th April from 7:00 PM on "Can Artificial Intelligence replace
+                        Software Engineering?"
                     </p>
                     <h2 class="card_speaker-title">Ayon<br>Roy</h2>
                 </div>
                 <div class="card_speaker">
                     <img src="./assets/speaker3.jpeg" alt="Kiran Dutta">
                     <p class="card_speaker-desc">
-                        Kiran is Founder of Web3Learn, a Blockchain skilling platform helping folks transition to Web 3.0 world. 
-                        He previously worked with Private Equity, consulted Fortune 500 companies and built one of the largest Family Office networks. 
-                        Kiran is an alum of Columbia University and is ardent F1 fan. Do join for his webinar at 07:00 PM on 10th April.
+                        Kiran is Founder of Web3Learn, a Blockchain skilling platform helping folks transition to Web
+                        3.0 world.
+                        He previously worked with Private Equity, consulted Fortune 500 companies and built one of the
+                        largest Family Office networks.
+                        Kiran is an alum of Columbia University and is ardent F1 fan. Do join for his webinar at 07:00
+                        PM on 10th April.
                     </p>
                     <h2 class="card_speaker-title">Kiran<br>Dutta</h2>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- Speaker section ends -->
         <!-- Judges section starts -->
-        <br>
+        <!-- <br>
         <section class="judges_section pt-lg-5" id="judges_section">
             <!-- Heading -->
-            <h3 class="section_heading glitch-font mt-5" data-text="JUDGES" data-aos="fade-up">
+        <!-- <h3 class="section_heading glitch-font mt-5" data-text="JUDGES" data-aos="fade-up">
                 <span class="glitch-font-h3">JUDGES</span>
             </h3>
-            <div id="wrapper" style = "display: none;">
-                <h1 style = "font-size: 2rem; color: #000" class="glitch" data-aos="fade-down">TO BE ANNOUNCED</h1>
+            <div id="wrapper" style="display: none;">
+                <h1 style="font-size: 2rem; color: #000" class="glitch" data-aos="fade-down">TO BE ANNOUNCED</h1>
                 <h1 class="glitch"></h1>
             </div>
             <!--HIDDEN-->
-            <div class="cards_speaker">
+        <!-- <div class="cards_speaker">
                 <div class="card_speaker">
                     <img src="./assets/judge1.jpeg" alt="Shubham Shukla">
                     <p class="card_speaker-desc">
-                        Security Consultant @ Deloitte LLP. Head of Technology for Dance Out of Poverty. 
-                        Founder Rojgar Setu and Market Mela 
-                        Smart India Hackathon Winner-Won first prize in Smart India Hackathon software edition 2019 organized by Government of India.
-                        Jury for Hackathons by UIDAI and external technical Expert for them. 
+                        Security Consultant @ Deloitte LLP. Head of Technology for Dance Out of Poverty.
+                        Founder Rojgar Setu and Market Mela
+                        Smart India Hackathon Winner-Won first prize in Smart India Hackathon software edition 2019
+                        organized by Government of India.
+                        Jury for Hackathons by UIDAI and external technical Expert for them.
                         Contributor for Aarogya Setu.
                         Part of jury for various Hackathon conducted by Ministry of Education
-                        Featured in Newspapers and Blogs-In Times of India, Amar Ujala,The Print, Dainik Jagran, Hindustan Times, Dainik Bhaskar, DailyHunt, and start-up India Magzine. 
+                        Featured in Newspapers and Blogs-In Times of India, Amar Ujala,The Print, Dainik Jagran,
+                        Hindustan Times, Dainik Bhaskar, DailyHunt, and start-up India Magzine.
                         5 times Awarded in a year for Contribution to US/UK Firm in Cybersecurity by Deloitte USI.
                         Appreciation from various Govt agencies for helping them secure there infrastructure.
-                        Public Speaker for Web and Cyber Security-Invited for delivering talks on various topics like Web, Cloud and Cyber Security with many Home/ International Speakers.
+                        Public Speaker for Web and Cyber Security-Invited for delivering talks on various topics like
+                        Web, Cloud and Cyber Security with many Home/ International Speakers.
                     </p>
                     <h2 class="card_speaker-title">Shubham<br>Shukla</h2>
                 </div>
                 <div class="card_speaker">
                     <img src="./assets/judge2.jpeg" alt="Shivam Chauahan">
                     <p class="card_speaker-desc">
-                        Software Engineer at Procol, with more than 6 years of experience in the AR/VR and Game Development Industry, he has mentored many students in this field. 
-                        He has been part of numerous workshops and mentored programs around the world, teaching and evaluating students in the Game Development Industry. 
-                        He was the former Head of the Multimedia and Game Development Society at JIIT. He has won and been a part of several Hackathons.
+                        Software Engineer at Procol, with more than 6 years of experience in the AR/VR and Game
+                        Development Industry, he has mentored many students in this field.
+                        He has been part of numerous workshops and mentored programs around the world, teaching and
+                        evaluating students in the Game Development Industry.
+                        He was the former Head of the Multimedia and Game Development Society at JIIT. He has won and
+                        been a part of several Hackathons.
                     </p>
                     <h2 class="card_speaker-title">Shivam<br>Chauhan</h2>
                 </div>
                 <div class="card_speaker">
                     <img src="./assets/judge3.jpeg" alt="Rajat Jain">
                     <p class="card_speaker-desc">
-                        Rajat is a Full Stack developer and career mentor with a growth mindset. He has work experience in the top companies of the world which are Microsoft and Amazon. He has secured certifications in cloud computing and had given many webinars on different topics in IT industry. Rajat has helped many people in getting there dream jobs by his guidance. He is always willing to learn new things to solve big problems.
+                        Rajat is a Full Stack developer and career mentor with a growth mindset. He has work experience
+                        in the top companies of the world which are Microsoft and Amazon. He has secured certifications
+                        in cloud computing and had given many webinars on different topics in IT industry. Rajat has
+                        helped many people in getting there dream jobs by his guidance. He is always willing to learn
+                        new things to solve big problems.
                     </p>
                     <h2 class="card_speaker-title">Rajat<br>Jain</h2>
                 </div>
                 <div class="card_speaker">
                     <img src="./assets/judge4.jpeg" alt="Raj Pratap Singh">
                     <p class="card_speaker-desc">
-                        Raj Pratap Singh has completed his B.Tech in Electronics and Communication Engineering in 2014 from JIIT, Noida Sector-62. He has worked in corporate for 3 years and found himself allured in the field of IoT, to develop products and services for different segments of society. With more than 7 years of experience product customisation and software services, he believes in delivering the best quality of work on time.
+                        Raj Pratap Singh has completed his B.Tech in Electronics and Communication Engineering in 2014
+                        from JIIT, Noida Sector-62. He has worked in corporate for 3 years and found himself allured in
+                        the field of IoT, to develop products and services for different segments of society. With more
+                        than 7 years of experience product customisation and software services, he believes in
+                        delivering the best quality of work on time.
                     </p>
                     <h2 class="card_speaker-title">Raj Pratap<br>Singh</h2>
                 </div>
             </div>
         </section>
-        <br>
+        <br> -->
         <!--Judges section ends -->
 
 
@@ -1122,13 +1137,15 @@
                             <img loading=lazy src="./assets/jyc_fa.jpeg" alt="image">
                             <div class="organiser-name">Dr. Manish Kumar Thakur</div>
                             <div class="organiser-role">Faculty Advisor, JIIT Youth Club</div>
-                            <div class="organiser-role">Faculty Co-ordinator(JIIT Sector-62)<br> for Smart India Hackathon 2022</div>
+                            <div class="organiser-role">Faculty Co-ordinator(JIIT Sector-62)<br> for Smart India
+                                Hackathon 2023</div>
                         </div>
-                        <div class="item">
+                        <!-- <div class="item">
                             <img loading=lazy src="./assets/prof_jp128.jpg" alt="image">
                             <div class="organiser-name">Dr. Shikha Mehta</div>
-                            <div class="organiser-role">Faculty Co-ordinator(JIIT Sector-128)<br>for Smart India Hackathon 2022</div>
-                        </div>
+                            <div class="organiser-role">Faculty Co-ordinator(JIIT Sector-128)<br>for Smart India
+                                Hackathon 2023</div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="owl-slider" data-aos="fade-up">
@@ -1143,61 +1160,50 @@
                             <div class="organiser-name">Mr. Prashant Kaushik</div>
                             <div class="organiser-role">Faculty Advisor<br>Game Development & Multimedia Hub</div>
                         </div>
-                        <div class="item">
-                            <img loading=lazy src="./assets/graficas_fa.jpeg" alt="image">
-                            <div class="organiser-name">Dr. Suma Dawn</div>
-                            <div class="organiser-role">Faculty Advisor<br>Graficas</div>
-                        </div>
-                        <div class="item">
-                            <img loading=lazy src="./assets/cice_fa.jpg" alt="image">
-                            <div class="organiser-name">Mr. Atul Kumar Srivastava</div>
-                            <div class="organiser-role">Faculty Advisor<br>CICE</div>
-                        </div>
                     </div>
                 </div>
                 <!-- Faculty section ends -->
-                <br>
+                <!-- <br>
                 <br>
                 <h3 class="section_heading" data-text="ORGANISING TEAM" data-aos="fade-up">
                     <span class="glitch-font-h3">ORGANISING TEAM</span>
                 </h3>
                 <!-- Organising Team -->
-                <div class="owl-slider" data-aos="fade-up">
+                <!-- <div class="owl-slider" data-aos="fade-up">
                     <div id="carousel-2" class="owl-carousel">
                         <div class="item">
                             <img loading=lazy src="./assets/Satakshi.jpg" alt="image">
                             <div class="organiser-name">Satakshi Garg</div>
                             <div class="organiser-role"></div>
                             <ul class="list-inline social-links">
-                                <li><a href=" https://www.linkedin.com/in/satakshigarg"
-                                        class="btn-social btn-outline" title="LinkedIn" target="_blank"><i
-                                            class="icon ion-social-linkedin"></i></a>
+                                <li><a href=" https://www.linkedin.com/in/satakshigarg" class="btn-social btn-outline"
+                                        title="LinkedIn" target="_blank"><i class="icon ion-social-linkedin"></i></a>
                                 </li>
                                 <li><a href="https://github.com/satakshigarg" class="btn-social btn-outline"
                                         data-toggle="tooltip" data-placement="top" title="Github" target="_blank"><i
                                             class="icon ion-social-github"></i></a>
                                 </li>
-                                
+
                                 <li><a href="https://www.satakshigarg.in" class="btn-social btn-outline"
-                                    title="Portfolio" target="_blank"><i class="fa fa-user"></i></a>
+                                        title="Portfolio" target="_blank"><i class="fa fa-user"></i></a>
                                 </li>
                             </ul>
                             <img loading=lazy src="./assets/Vibhor.png" alt="image">
                             <div class="organiser-name">Vibhor Garg</div>
                             <div class="organiser-role"></div>
                             <ul class="list-inline social-links">
-                                <li><a href="https://www.instagram.com/vibhor_gargg?utm_medium=copy_link" class="btn-social btn-outline"
-                                    title="Instagram" target="_blank"><i class="icon ion-social-instagram"></i></a>
+                                <li><a href="https://www.instagram.com/vibhor_gargg?utm_medium=copy_link"
+                                        class="btn-social btn-outline" title="Instagram" target="_blank"><i
+                                            class="icon ion-social-instagram"></i></a>
                                 </li>
                             </ul>
                             <img loading=lazy src="./assets/aditya_jain.jpg" alt="image">
                             <div class="organiser-name">Aditya Jain</div>
                             <div class="organiser-role"></div>
                             <ul class="list-inline social-links">
-                                <li><a href="https://www.linkedin.com/in/aditya-jain-30/"
-                                        class="btn-social btn-outline" title="LinkedIn" target="_blank"><i
-                                            class="icon ion-social-linkedin"></i></a>
-                                </li>  
+                                <li><a href="https://www.linkedin.com/in/aditya-jain-30/" class="btn-social btn-outline"
+                                        title="LinkedIn" target="_blank"><i class="icon ion-social-linkedin"></i></a>
+                                </li>
                             </ul>
                         </div>
                         <div class="item">
@@ -1205,16 +1211,17 @@
                             <div class="organiser-name">Vaibhav Chawla</div>
                             <div class="organiser-role"></div>
                             <ul class="list-inline social-links">
-                                <li><a href="https://www.linkedin.com/in/vaibhav-chawla-83a7891b6/" class="btn-social btn-outline"
-                                        title="LinkedIn" target="_blank"><i class="icon ion-social-linkedin"></i></a>
+                                <li><a href="https://www.linkedin.com/in/vaibhav-chawla-83a7891b6/"
+                                        class="btn-social btn-outline" title="LinkedIn" target="_blank"><i
+                                            class="icon ion-social-linkedin"></i></a>
                                 </li>
                                 <li><a href="https://github.com/vaibhav-c" class="btn-social btn-outline"
                                         data-toggle="tooltip" data-placement="top" title="Github " target="_blank"><i
                                             class="icon ion-social-github"></i></a>
                                 </li>
                                 <li><a href="https://vaibhav-chawla.netlify.app/" class="btn-social btn-outline"
-                                    data-toggle="tooltip" data-placement="top" title="Portfolio" target="_blank"><i
-                                        class="fa fa-user"></i></a>
+                                        data-toggle="tooltip" data-placement="top" title="Portfolio" target="_blank"><i
+                                            class="fa fa-user"></i></a>
                                 </li>
                             </ul>
                             <img loading=lazy src="./assets/aditya_cice.jpg" alt="image">
@@ -1231,10 +1238,10 @@
                                         data-toggle="tooltip" data-placement="top" title="Github" target="_blank"><i
                                             class="icon ion-social-github"></i></a>
                                 </li>
-                                
+
                             </ul>
-                            
-                            
+
+
                             <img loading=lazy src="./assets/akarsh.jpg" alt="image">
                             <div class="organiser-name">Akarsh Puri</div>
                             <div class="organiser-role"></div>
@@ -1246,8 +1253,8 @@
                                     <!--<a href="https://www.behance.net/shashankagarwal2"
                                         class="btn-social btn-outline" title="Behance" target="_blank"><i
                                             class="fa fa-behance"></i></a>-->
-                                </li>
-                               
+                <!-- </li>
+
                             </ul>
                         </div>
                         <div class="item">
@@ -1257,17 +1264,16 @@
                             <ul class="list-inline social-links">
 
 
-                                <li><a href="https://www.linkedin.com/mwlite/in/ssg9878"
-                                        class="btn-social btn-outline" title="LinkedIn" target="_blank"><i
-                                            class="icon ion-social-linkedin"></i></a>
+                                <li><a href="https://www.linkedin.com/mwlite/in/ssg9878" class="btn-social btn-outline"
+                                        title="LinkedIn" target="_blank"><i class="icon ion-social-linkedin"></i></a>
                                 </li>
                                 <li><a href="https://github.com/ssgshubham" class="btn-social btn-outline"
                                         data-toggle="tooltip" data-placement="top" title="Github" target="_blank"><i
                                             class="icon ion-social-github"></i></a>
                                 </li>
-                                
+
                             </ul>
-                            
+
                             <img loading=lazy src="./assets/nakshatra.jpeg" alt="image">
                             <div class="organiser-name">Nakshatra Maharishi</div>
                             <div class="organiser-role"></div>
@@ -1278,7 +1284,7 @@
                                         class="btn-social btn-outline" title="LinkedIn" target="_blank"><i
                                             class="icon ion-social-linkedin"></i></a>
                                 </li>
-                               
+
                             </ul>
                             <img loading=lazy src="./assets/akash_graphicas.jpeg" alt="image">
                             <div class="organiser-name">Akash Jain</div>
@@ -1293,7 +1299,7 @@
                                             class="icon ion-social-github"></i></a>
                                 </li>
                             </ul>
-                            
+
                         </div>
                         <div class="item">
                             <img loading=lazy src="./assets/riya.jpg" alt="image">
@@ -1302,16 +1308,16 @@
                             <ul class="list-inline social-links">
 
 
-                                <li><a href="https://www.linkedin.com/in/rj-riya-jain/"
-                                        class="btn-social btn-outline" title="LinkedIn" target="_blank"><i
-                                            class="icon ion-social-linkedin"></i></a>
+                                <li><a href="https://www.linkedin.com/in/rj-riya-jain/" class="btn-social btn-outline"
+                                        title="LinkedIn" target="_blank"><i class="icon ion-social-linkedin"></i></a>
                                 </li>
                                 <li><a href="https://github.com/rjrealworld" class="btn-social btn-outline"
                                         data-toggle="tooltip" data-placement="top" title="Github" target="_blank"><i
                                             class="icon ion-social-github"></i></a>
                                 </li>
-                                <li><a href="https://portfolios.talentsprint.com/~riya_jain" class="btn-social btn-outline"
-                                    title="Portfolio" target="_blank"><i class="fa fa-user"></i></a>
+                                <li><a href="https://portfolios.talentsprint.com/~riya_jain"
+                                        class="btn-social btn-outline" title="Portfolio" target="_blank"><i
+                                            class="fa fa-user"></i></a>
                                 </li>
                                 <li><a href="https://www.instagram.com/rj.riyajain/" class="btn-social btn-outline"
                                         title="Instagram" target="_blank"><i class="ion ion-social-instagram"></i></a>
@@ -1325,7 +1331,7 @@
 
                                 <li><a href="https://www.linkedin.com/in/vasu-aggarwal-659b2a19a"
                                         class="btn-social btn-outline" title="LinkedIn" target="_blank"><i
-                                            class="icon ion-social-linkedin" ></i></a>
+                                            class="icon ion-social-linkedin"></i></a>
                                 </li>
                                 <li><a href="https://www.github.com/vasu2001" class="btn-social btn-outline"
                                         data-toggle="tooltip" data-placement="top" title="Github" target="_blank"><i
@@ -1348,91 +1354,94 @@
                         </div>
                     </div>
                 </div>
-        </section>
-        <!-- || Team Section [END] -->
+        </section> -->
+                <!-- || Team Section [END] -->
 
 
-        <!-- || Footer Section [START] -->
-        <section class="footer-section">
-            <footer class="footer-distributed">
+                <!-- || Footer Section [START] -->
+                <section class="footer-section">
+                    <footer class="footer-distributed">
 
 
-                <div class="footer-center">
-                    <img class="footer-logo-jiit" src="assets/jiit_logo_black.png">
-                    <br>
-                    <br>
-                    <img class="footer-logo-dsc" src="assets/dsc.png">
-                    <img class="footer-logo-cice" src="assets/cice.png">
-                    <img class="footer-logo-gd" src="assets/gd.png">
-                    <img class="footer-logo-graficas" src="assets/graficas.png">
-                </div>
+                        <div class="footer-center">
+                            <img class="footer-logo-jiit" src="assets/jiit_logo_black.png">
+                            <br>
+                            <br>
+                            <img class="footer-logo-dsc" src="assets/dsc.png">
+                            <img class="footer-logo-gd" src="assets/gd.png">
+                        </div>
 
-                <div class="footer-right">
-                    <!--<a href="https://www.facebook.com/dscjiitnoida/" target="_blank"><i class="fa fa-facebook"></i></a>-->
-                    <!--<a href="https://twitter.com/gdg_jiit_noida?lang=en" target="_blank"><i
+                        <div class="footer-right">
+                            <!--<a href="https://www.facebook.com/dscjiitnoida/" target="_blank"><i class="fa fa-facebook"></i></a>-->
+                            <!--<a href="https://twitter.com/gdg_jiit_noida?lang=en" target="_blank"><i
                             class="fa fa-twitter"></i></a>-->
-                    <!--<a href="https://www.linkedin.com/company/dscjiitnoida/" target="_blank"><i
+                            <!--<a href="https://www.linkedin.com/company/dscjiitnoida/" target="_blank"><i
                             class="fa fa-linkedin"></i></a>-->
-                    <a href="https://www.instagram.com/hackin_summer/" target="_blank"><i class="fa fa-instagram"></i></a>
-                    <a href="https://www.youtube.com/channel/UCMqzTZkzwdDOuTzYbSZY8jw" target="_blank"><i
-                            class="fa fa-youtube"></i></a>
-                </div>
+                            <a href="https://www.instagram.com/hackin_summer/" target="_blank"><i
+                                    class="fa fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/channel/UCMqzTZkzwdDOuTzYbSZY8jw" target="_blank"><i
+                                    class="fa fa-youtube"></i></a>
+                        </div>
 
-                <div class="footer-left">
-                    <span>Made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href=""
-                            target="blank" style="text-decoration: none; color: #0c59a1">Team JIIT</a></span>
-                </div>
+                        <div class="footer-left">
+                            <span>Made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="" target="blank"
+                                    style="text-decoration: none; color: #0c59a1">Team GDSC JIIT</a></span>
+                        </div>
 
-            </footer>
-        </section>
-        <!-- || Footer Section [END] -->
-    </div>
+                    </footer>
+                </section>
+                <!-- || Footer Section [END] -->
+            </div>
 
-    <!-- || Inbuilt Javascript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-    </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-    </script>
+            <!-- || Inbuilt Javascript Libraries -->
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+                integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+                crossorigin="anonymous">
+            </script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+                integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                crossorigin="anonymous">
+            </script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+                integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                crossorigin="anonymous">
+            </script>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="https://use.fontawesome.com/fce9801cfe.js"></script>
-    <script type="text/javascript" src="./js/libs/dat.gui.min.js" defer></script>
-    <script type="text/javascript" src="./js/libs/animationFrame.js" defer></script>
-    <script type="text/javascript" src="./js/Nodes.js"></script>
-    <script type="text/javascript" src="./js/prizes.js"></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'></script>
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+            <script src="https://use.fontawesome.com/fce9801cfe.js"></script>
+            <script type="text/javascript" src="./js/libs/dat.gui.min.js" defer></script>
+            <script type="text/javascript" src="./js/libs/animationFrame.js" defer></script>
+            <script type="text/javascript" src="./js/Nodes.js"></script>
+            <script type="text/javascript" src="./js/prizes.js"></script>
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'></script>
 
-    <script>
-        AOS.init({
-            duration: 1000,
-            delay: 100,
-            once: true,
-            easing: 'ease-in-out'
-        });
-        Nodes.init();
-    </script>
-    <script>
-        AOS.init({
-            duration: 1000,
-            delay: 100,
-            once: true,
-            easing: 'ease-in-out'
-        });
-        Nodes2.init();
-    </script>
+            <script>
+                AOS.init({
+                    duration: 1000,
+                    delay: 100,
+                    once: true,
+                    easing: 'ease-in-out'
+                });
+                Nodes.init();
+            </script>
+            <script>
+                AOS.init({
+                    duration: 1000,
+                    delay: 100,
+                    once: true,
+                    easing: 'ease-in-out'
+                });
+                Nodes2.init();
+            </script>
 
-    <!-- || Custom Script -->
-    <script defer async src="./js/navbar.js" defer></script>
-    <script defer async src="./js/timer.js" defer></script>
-    <!-- <script src="./js/scrollbar.js" defer></script> -->
-    <script defer async src="./js/gallery.js" defer></script>
-    <script defer async src="./js/organiser.js" type="text/javascript"></script>
+            <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
+            <!-- || Custom Script -->
+            <script defer async src="./js/navbar.js" defer></script>
+            <script defer async src="./js/timer.js" defer></script>
+            <!-- <script src="./js/scrollbar.js" defer></script> -->
+            <script defer async src="./js/gallery.js" defer></script>
+            <script defer async src="./js/organiser.js" type="text/javascript"></script>
 
 </body>
 

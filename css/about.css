@@ -21,7 +21,7 @@ canvas {
 
 #about_section {
     font-family: 'Lato', sans-serif;
-    color: #0c59a1;
+    color: rgba(0, 0, 0, 0.4);
 }
 
 .about_us_heading {
