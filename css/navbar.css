@@ -18,11 +18,12 @@
 }
 
 .navbar {
-    background: whitesmoke;
+    background-color: transparent;
     z-index: 100;
     position: fixed;
     right: 0;
     width: 100vw;
+    transition: ease-in-out;
 }
 
 .navbar-toggler,
