@@ -131,8 +131,8 @@
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <a class="navbar-brand" href="./index.html">
                         <!-- <img src="assets/dsc_logo.png"
-                            alt="DSC JIIT" /> -->
-                        <!-- <span>DSC JIIT</span> -->
+                            alt="DSC JIIT" />
+                        <span>DSC JIIT</span> -->
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -255,7 +255,7 @@
                         <br>
                         <h5 class="glitch" style="font-size: large;">15th-16th April</h5>
                         <br/>
-                        <div class="apply-button" data-hackathon-slug="hackin-summers" data-button-theme="light" ></div>
+                        <div class="apply-button" data-hackathon-slug="hackin-summers" data-button-theme="dark" style="margin-top: 3%;" ></div>
                         <h1 class="glitch"></h1>
                     </div>
                 </div>
@@ -1445,6 +1445,22 @@
                     easing: 'ease-in-out'
                 });
                 Nodes.init();
+            </script>
+            <script>
+                window.onscroll = function () {
+                    solidify();
+                }
+                
+                function solidify() {
+                    if(document.body.scrollTop > 100 || document.documentElement.scrollTop > 100)
+                    {
+                    document.getElementsByClassName('navbar')[0].style.backgroundColor = "#FFF6F6";
+                    }
+                    else
+                    {
+                    document.getElementsByClassName('navbar')[0].style.backgroundColor = "transparent";
+                    }
+                }
             </script>
 
             <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
